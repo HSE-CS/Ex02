@@ -34,7 +34,7 @@ ASSERT_NEAR(2.50000000, improve(2.0,6.0),0.0000001);
 
 TEST(task1, test7)
 {
-ASSERT_NEAR(16.03121954,calc(257.0),0.0000001);
+ASSERT_NEAR(1, improve(1.0, 1.0), 0.0000001);
 }
 
 TEST(task1, test8)
