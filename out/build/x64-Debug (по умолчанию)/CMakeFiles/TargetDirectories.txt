@@ -1,0 +1,4 @@
+D:/ProgectC++/Lesson2/Ex02/out/build/x64-Debug (по умолчанию)/CMakeFiles/task1.dir
+D:/ProgectC++/Lesson2/Ex02/out/build/x64-Debug (по умолчанию)/CMakeFiles/task1_lib.dir
+D:/ProgectC++/Lesson2/Ex02/out/build/x64-Debug (по умолчанию)/CMakeFiles/edit_cache.dir
+D:/ProgectC++/Lesson2/Ex02/out/build/x64-Debug (по умолчанию)/CMakeFiles/rebuild_cache.dir
