@@ -7,7 +7,7 @@ double abs(double x)
     return -x;
 }
 
-double delta = 0.00000001;
+double delta = 0.0001;
 
 double average(double x, double y)
 {
