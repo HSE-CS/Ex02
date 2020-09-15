@@ -18,3 +18,26 @@ TEST(task1, test3)
 	
 	ASSERT_NEAR(4.58257569, calc(21.0), 0.000001);
 }
+TEST(task1, test4) {
+	ASSERT_NEAR(6.5, average(4, 9), 0.00000001);
+}
+
+TEST(task1, test5) {
+	ASSERT_NEAR(6.0, average(7, 5), 0.00000001);
+}
+
+TEST(task1, test6)
+{
+	ASSERT_TRUE(good(1.0, 1.0));
+}
+TEST(task1, tes7)
+{
+	ASSERT_DOUBLE_EQ(1.414214, iter(4.0, 2.0));
+
+}
+
+TEST(task1, test8)
+{
+	ASSERT_NEAR(0.000069, iter(9.0, 0.0), 0.000001);
+
+}
