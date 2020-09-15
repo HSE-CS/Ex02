@@ -32,12 +32,12 @@ TEST(task1, test_4)
 	ASSERT_NEAR(2.0, calc(4.0), 0.00001);
 }
 
-TEST(task1, 5)
+TEST(task1, test_5)
 {
 	ASSERT_NEAR(1.41421, calc(2.0), 0.00001);
 }
 
-TEST(task1, 6)
+TEST(task1, test_6)
 {
 	ASSERT_NEAR(5.0, calc(25.0), 0.00001);
 }
