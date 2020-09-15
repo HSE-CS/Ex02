@@ -38,12 +38,12 @@ TEST(task1, test7)
 
 TEST(task1, test8)
 {
-    ASSERT_DOUBLE_EQ(3.0, calc(9.0));
+    ASSERT_NEAR(3.0, calc(9.0), 0.0001);
 }
 
 TEST(task1, test9)
 {
-    ASSERT_DOUBLE_EQ(2.0, calc(4.0));
+    ASSERT_NEAR(2.0, calc(4.0), 0.0001);
 }
 
 TEST(task1, test10)
