@@ -4,11 +4,11 @@
 
 TEST(task1, average1
 ){
-ASSERT_DOUBLE_EQ(69.1919,average(83.838383, 54.545454));
+ASSERT_NEAR(69.1919, average(83.838383, 54.545454), 0.0001);
 }
 TEST(task1, average2
 ){
-ASSERT_DOUBLE_EQ(3.0,average(2.0, 4.0));
+ASSERT_NEAR(3.0,average(2.0, 4.0), 0.0001);
 }
 TEST(task1, good1
 ){
