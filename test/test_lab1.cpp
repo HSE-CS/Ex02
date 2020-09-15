@@ -4,7 +4,7 @@
 
 TEST(task1, test1)
 {
-	ASSERT_NEAR(1.73205080, calc(3.0), 0.00000001);
+	ASSERT_NEAR(1.78885438, calc(3.2), 0.00000001);
 
 }
 
@@ -40,7 +40,7 @@ TEST(task1, test6)
 
 TEST(task1, test7)
 {
-	ASSERT_TRUE(good(4.03732584, 16.3));
+	ASSERT_TRUE(good(4.2, 17.64));
 
 }
 
@@ -58,7 +58,7 @@ TEST(task1, test9)
 
 TEST(task1, test10)
 {
-	ASSERT_DOUBLE_EQ(9.0, calc(81));
+	ASSERT_DOUBLE_EQ(9.0, calc(81.0));
 
 }
 
