@@ -19,11 +19,11 @@ TEST(task1, test_good2){
 }
 
 TEST(task1, test_improve1){
-    ASSERT_NEAR(228.231868, improve(455.0, 666.0), 0,000002);
+    ASSERT_DOUBLE_EQ(1.00000000, improve(1.0, 1.0));
 }
 
 TEST(task1, test_improve2){
-    ASSERT_DOUBLE_EQ(200.250000, improve(400.0, 200.0));
+    ASSERT_DOUBLE_EQ(1.50000000, improve(1.0, 2.0));
 }
 
 TEST(task1, test_iter1){
