@@ -35,7 +35,7 @@ TEST (task1, test8_iter) {
 }
 
 TEST (task1, test9_calc) {
-	ASSERT_DOUBLE_EQ(calc(2), 1.4142140000000001);
+	ASSERT_DOUBLE_EQ(calc(2), 1.4142135623746899);
 }
 
 TEST (task1, test10_calc) {
