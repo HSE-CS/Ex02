@@ -3,18 +3,18 @@
 
 TEST(task1, test_averag_1)
 {
-ASSERT_EQ(3,average(2.0,4.0));
+ASSERT_NEAR(3,average(2.0,4.0));
 
 }
 TEST(task1, test_averag_2)
 {
-ASSERT_EQ(3.5,average(2.0,5.0));
+ASSERT_NEAR(3.5,average(2.0,5.0));
 
 }
 
 TEST(task1, test_averag_3)
 {
-ASSERT_EQ(1484.05,average(2889.0,79.0909093));
+ASSERT_NEAR(1484.05,average(2889.0,79.0909093));
 
 }
 
