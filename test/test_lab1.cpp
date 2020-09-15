@@ -19,7 +19,7 @@ TEST(task1, test_good2){
 }
 
 TEST(task1, test_improve1){
-    ASSERT_DOUBLE_EQ(228.231867, improve(455.0, 666.0));
+    ASSERT_NEAR(228.231868, improve(455.0, 666.0), 0,000002);
 }
 
 TEST(task1, test_improve2){
