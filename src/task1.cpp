@@ -1,7 +1,7 @@
-//#include "task1.h"
+#include "task1.h"
 //#include <math.h>
 #include <cmath>
-#include "..\include\task1.h"
+//#include "..\include\task1.h"
 
 double delta = 0.00000001;
 
