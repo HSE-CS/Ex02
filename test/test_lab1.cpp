@@ -28,13 +28,13 @@ TEST(task1, test_improve)
 }
 TEST(task1, test_iter1)
 {
-	ASSERT_NEAR(0.000000000000409599987, iter(0.0008, 0.00000000000001), 0.000001);
+	ASSERT_NEAR(0.000317, iter(0.0008, 0.0000001), 0.000001);
 
 }
 
 TEST(task1, test_iter2)
 {
-	ASSERT_NEAR(0.0003, iter(0.00003, 0.0000000001), 0.000001);
+	ASSERT_NEAR(0.00003, iter(0.00003, 0.0000000001), 0.000001);
 
 }
 
@@ -59,7 +59,7 @@ TEST(task1, test_calc4)
 
 TEST(task1, test_calc2)
 {
-	ASSERT_NEAR(1.414214, calc(9.0), 0.000001);
+	ASSERT_NEAR(2.828427, calc(8.0), 0.000001);
 
 }
 
