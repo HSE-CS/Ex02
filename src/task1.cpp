@@ -3,7 +3,8 @@
 
 double delta = 0.00000001;
 
-double my_abs(double x) {
+double my_abs(double x)
+{
 	if (x > 0)
 		return x;
 	return -x;
