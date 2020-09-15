@@ -1,9 +1,10 @@
+#include <iostream>
 #include "task1.h"
-#include<iostream>
 using namespace std;
 int main()
 {
 
-    cout<< calc(8.7);
+    double  result=calc(2.0);
+    cout<<"Sqrt("<<2.0<<")"<<"="<<result<<endl;
     return 0;
 }
