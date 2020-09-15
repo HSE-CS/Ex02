@@ -10,13 +10,13 @@ TEST(task1, test1Average)
 
 TEST(task1, test1Good)
 {
-	ASSERT_EQ(true, good(10, 1));
+	ASSERT_EQ(false, good(10, 1));
 
 }
 
 TEST(task1, test2Good)
 {
-	ASSERT_DOUBLE_EQ(false, good(0.000002, 0.0000000000001));
+	ASSERT_DOUBLE_EQ(true, good(0.000002, 0.0000000000001));
 
 }
 TEST(task1, test1Improve)
@@ -31,7 +31,7 @@ TEST(task1, test2Improve)
 }
 TEST(task1, test1Iter)
 {
-	ASSERT_DOUBLE_EQ(10, iter(10, 1));
+	ASSERT_NEAR(1, iter(10, 1), 0.000001);
 
 }
 TEST(task1, test2Iter)
