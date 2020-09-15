@@ -17,8 +17,8 @@ TEST(task1, test_for_1){
     ASSERT_NEAR(1.0, calc(1.0), 0.00001);
 }
 
-TEST(task1, test_for_2){
-    ASSERT_NEAR(1.414214, calc(2.0), 0.0001);
+TEST(task1, test_for_3){
+    ASSERT_NEAR(1.732051, calc(2.0), 0.0001);
 }
 
 TEST(task1, test_for_5){
