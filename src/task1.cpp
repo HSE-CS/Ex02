@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 
-double delta = 0.0000000000000000001;
+double delta = 0.00000001;
 
 double average(double x, double y)
 {
