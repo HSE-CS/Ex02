@@ -29,6 +29,7 @@ TEST(task1, test5)
 
 TEST(task1, test6)
 {
+    
     ASSERT_EQ(true, good(2.82842712, 8));
 }
 TEST(task1, test7)
