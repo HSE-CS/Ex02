@@ -27,19 +27,19 @@ TEST(task1, test5)
 ASSERT_DOUBLE_EQ(5.0,calc(25.0));
 }
 
-TEST(task1, test3)
+TEST(task1, test6)
 {
-ASSERT_NEAR(11,calc(121),0.0000001);
+ASSERT_NEAR(2.50000000, improve(2.0,6.0),0.0000001);
 }
 
 TEST(task1, test7)
 {
-ASSERT_NEAR(20,calc(400), 0.0000001);
+ASSERT_NEAR(16.03121954,calc(257.0),0.0000001);
 }
 
 TEST(task1, test8)
 {
-ASSERT_NEAR(21.1,calc(445.21), 0.0000001);
+ASSERT_NEAR(9.89949494, calc(98),0.0000001);
 }
 
 TEST(task1, test9)
