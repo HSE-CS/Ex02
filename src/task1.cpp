@@ -2,7 +2,7 @@
 #include<iostream>
 #include<stdio.h>
 
-#include"task1.h"
+#include"..include/task1.h"
 using namespace std;
 
 double delta = 0.00000001;
