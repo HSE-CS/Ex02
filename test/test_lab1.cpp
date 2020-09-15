@@ -16,7 +16,7 @@ TEST(task1, test2)
 TEST(task1, test3)
 {
 	
-	ASSERT_NEAR(4.58257569, calc(21.0), 0.000001);
+	ASSERT_NEAR(7.416198, calc(55.0), 0.000001);
 }
 TEST(task1, test4) {
 	ASSERT_NEAR(6.5, average(4, 9), 0.00000001);
@@ -40,4 +40,10 @@ TEST(task1, test8)
 {
 	ASSERT_NEAR(0.000069, iter(9.0, 0.0), 0.000001);
 
+}
+test(task1, test9) {
+	assert_near(3.300000, improve(5.0, 8.0), 0.000001);
+}
+test(task1, test10) {
+	assert_near(3.571429, improve(7.0, 1.0), 0.000001);
 }
