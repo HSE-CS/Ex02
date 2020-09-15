@@ -14,7 +14,7 @@ TEST(average, test2)
 
 TEST(improve, test1)
 {
-    ASSERT_DOUBLE_EQ(7.76666665, improve(15.0, 8.0));
+    ASSERT_DOUBLE_EQ(7.7666666666666666, improve(15.0, 8.0));
 }
 
 TEST(improve, test2)
@@ -25,4 +25,9 @@ TEST(improve, test2)
 TEST(iter, test1)
 {
     ASSERT_DOUBLE_EQ(7.79, iter(7.79, 60.6841));
+}
+
+TEST(iter, test2)
+{
+    ASSERT_DOUBLE_EQ(7.79, iter(1.0, 2.0));
 }
