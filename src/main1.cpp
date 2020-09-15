@@ -3,7 +3,12 @@
 //
 #include <iostream>
 
+#include "task1.h"
+
+using namespace std;
+
 int main() {
-    std::cout << 0;
+    double a = calc(64);
+    cout << a;
     return 0;
 }

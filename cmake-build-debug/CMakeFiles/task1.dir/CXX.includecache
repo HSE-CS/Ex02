@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
+../include/task1.h
+stdio.h
+-
+math.h
+-
+
 /home/toliman/Projects/HSE-CS/Ex02/src/main1.cpp
 iostream
 -
+task1.h
+/home/toliman/Projects/HSE-CS/Ex02/src/task1.h
 
