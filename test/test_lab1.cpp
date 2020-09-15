@@ -32,12 +32,22 @@ TEST(task1, test3_2)
      ASSERT_DOUBLE_EQ(1.5,improve(2.0,2.0));
 }
 
-//TEST(task1, test4_1)
-//{
-//     ASSERT_DOUBLE_EQ(0.0000001,iter(0.0000001,0.000000005));
-//}
+TEST(task1, test4_1)
+{
+     ASSERT_DOUBLE_EQ(0.0000001,iter(0.0000001,0.000000005));
+}
 
-//TEST(task1, test4_2)
-//{
-//     ASSERT_DOUBLE_EQ(0.0000001,iter(1.0,0.5));
-//}
+TEST(task1, test4_2)
+{
+     ASSERT_NEAR(2.236068,iter(10,5),0.000001);
+}
+
+TEST(task1, test5_1)
+{
+     ASSERT_NEAR(2.0,calc(4.0),0.000001);
+}
+
+TEST(task1, test5_2)
+{
+     ASSERT_NEAR(3.0,calc(9.0),0.000001);
+}
