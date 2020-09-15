@@ -8,7 +8,7 @@
 using namespace std;
 
 int main() {
-    double a = calc(2.718281828459045235360);
+    double a = iter(3., 9.);
 //    bool r = good(-8.00000000000000001, 64.);
 //    cout << r << endl;
     cout << a;

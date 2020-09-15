@@ -39,3 +39,7 @@ TEST(task1, test_calc3) {
     ASSERT_NEAR(1.64872, calc(2.718281828), 0.01);
 }
 
+TEST(task1, test_iter1) {
+    ASSERT_NEAR(3., iter(3., 9.), 0.00000000001);
+}
+
