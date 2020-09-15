@@ -24,19 +24,19 @@ ASSERT_NEAR(2.50000000,average(2.0,3.0),0.0000001);
 
 TEST(task1, test5)
 {
-ASSERT_EQ(false, good(2.5,1));
+ASSERT_FALSE(good(2.5,1));
 
 }
 
 TEST(task1, test6)
 {
-ASSERT_EQ(false, good(2.5123,1.2));
+ASSERT_FALSE(good(2.5123,1.2));
 
 }
 
 TEST(task1, test7)
 {
-ASSERT_EQ(true, good(2.50000000,1));
+ASSERT_TRUE(good(0.000003, 0.00000000000005));
 
 }
 
