@@ -12,7 +12,7 @@ bool good(double guess, double x) {
     return abs(guess*guess - x) < delta;
 }
 
-double improve(double guess, double x){
+double improve(double guess, double x) {
     return average(guess, x/guess);
 }
 
