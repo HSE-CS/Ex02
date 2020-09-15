@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
     double a = calc(64);
-    bool r = good(25., 24.999);
+    bool r = good(12, 143.9999888);
     cout << r << endl;
     cout << a;
     return 0;
