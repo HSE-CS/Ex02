@@ -36,17 +36,17 @@ TEST(task1, test7)
     ASSERT_NEAR(0.000000, good(7.0, 8.0), 0.00001);
 }
 
-TEST(task1, test4)
+TEST(task1, test8)
 {
     ASSERT_NEAR(3.31662, iter(4.0, 11.0), 0.00001);
 }
 
-TEST(task1, test4)
+TEST(task1, test9)
 {
     ASSERT_NEAR(0.000000, good(1.0, 50.0), 0.00001);
 }
 
-TEST(task1, test4)
+TEST(task1, test10)
 {
     ASSERT_NEAR(34.125, improve(68.0, 17.0), 0.00001);
 }
