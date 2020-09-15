@@ -40,3 +40,35 @@ TEST(task1, test9){
 TEST(task1, test10){
     ASSERT_NEAR(15.0997, calc(228.0), 0.0001);
 }
+
+TEST(task1, testAverage1){
+    ASSERT_NEAR(1.5, average(1.0, 2.0), 0.1);
+}
+
+TEST(task1, testAverage2){
+    ASSERT_NEAR(55.0, average(10.0, 100.0), 0.1);
+}
+
+TEST(task1, testGood1){
+    ASSERT_EQ(1, good(1.0, 0.999999));
+}
+
+TEST(task1, testGood2){
+    ASSERT_EQ(0, good(1.0, 12));
+}
+
+TEST(task1, testImprove1){
+    ASSERT_NEAR(1.5, improve(1.0, 2.0), 0.1);
+}
+
+TEST(task1, testImprove2){
+    ASSERT_NEAR(51.0, improve(100.0, 200.0), 0.1);
+}
+
+TEST(task1, testIter1){
+    ASSERT_NEAR(5.0, iter(1.0, 25.0), 0.1);
+}
+
+TEST(task1, testIter2){
+    ASSERT_NEAR(31.60, iter(1.0, 999), 0.01)
+}
