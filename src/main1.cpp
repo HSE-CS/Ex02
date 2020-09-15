@@ -1,7 +1,16 @@
 #include "task1.h"
 
 int main(){
-    cout << "sqr of 228 is 15.09966\n";
-    cout << "My answer is " << calc(228) << '\n';
-    cout << (15.09966 == calc(228));
+    cout << calc(4.0) << '\n';
+    cout << calc(2.0) << '\n';
+    cout << calc(5.0) << '\n';
+    cout << calc(10.0) << '\n';
+    cout << calc(10000.0) << '\n';
+    cout << calc(1000.0) << '\n';
+    cout << calc(99.0) << '\n';
+    cout << calc(8.0) << '\n';
+    cout << calc(65.0) << '\n';
+    cout << calc(228.0) << '\n';
+    cout << calc(25.0) << '\n';
+    cout << calc(999.0) << '\n';
 }

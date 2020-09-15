@@ -1,6 +1,6 @@
 #include "task1.h"
 
-double delta=0.0001;
+double delta=0.00000001;
 
 double my_abs(double x){
     if (x > 0)

@@ -12,7 +12,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c46164f7-03b0-47d6-aa18-1f6b3ee5e694" name="Default Changelist" comment="" />
+    <list default="true" id="c46164f7-03b0-47d6-aa18-1f6b3ee5e694" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1.dir/src/main1.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1.dir/src/main1.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_lib.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_lib.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_lib.dir/src/main1.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_lib.dir/src/main1.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_lib.dir/src/task1.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_lib.dir/src/task1.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_lib.dir/task1_lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_lib.dir/task1_lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/task1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/task1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/task1.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/task1.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/task1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/task1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/task1_lib.lib" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/task1_lib.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_lab1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_lab1.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +84,7 @@
       <workItem from="1600157872541" duration="7478000" />
       <workItem from="1600166332409" duration="79000" />
       <workItem from="1600166446344" duration="2000" />
-      <workItem from="1600181955374" duration="1745000" />
+      <workItem from="1600181955374" duration="2603000" />
     </task>
     <servers />
   </component>
@@ -78,25 +92,25 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="284" key="GridCell.Tab.0.bottom" timestamp="1600165466968">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1600184476690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600165466968" />
-    <state width="914" height="284" key="GridCell.Tab.0.center" timestamp="1600165466967">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600184476690" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1600184476689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600165466967" />
-    <state width="914" height="284" key="GridCell.Tab.0.left" timestamp="1600165466966">
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600184476689" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1600184476689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600165466966" />
-    <state width="914" height="284" key="GridCell.Tab.0.right" timestamp="1600165466967">
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600184476689" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1600184476690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600165466967" />
-    <state x="922" y="165" key="SettingsEditor" timestamp="1600164642626">
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600184476690" />
+    <state x="922" y="165" key="SettingsEditor" timestamp="1600183944216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600164642626" />
+    <state x="922" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600183944216" />
   </component>
 </project>
