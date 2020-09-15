@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 #include <cmath>
-#include "task1.h"
+#include "../include/task1.h"
 #include<iostream>
 
 using namespace std;
