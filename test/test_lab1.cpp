@@ -4,7 +4,7 @@
 TEST(task1, testCalc)
 {
 	ASSERT_NEAR(2.0, calc(4.0), 0.00000001);
-	ASSERT_DOUBLE_EQ(3.0, calc(9.0));
+	ASSERT_NEAR(3.0, calc(9.0), 0.00000001);
 }
 TEST(task1, testAverage)
 {
