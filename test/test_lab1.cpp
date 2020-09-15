@@ -16,12 +16,12 @@ ASSERT_NEAR(2.82842712, calc(8), 0.0000001);
 
 TEST(task1, test3)
 {
-ASSERT_DOUBLE_EQ(1.416667, improve(1.5, 2));
+ASSERT_NEAR(1.416667, improve(1.5, 2.0), 0.0000001);
 }
 
 TEST(task1, test4)
 {
-ASSERT_DOUBLE_EQ(1.414216, improve(1.4167, 2));
+ASSERT_NEAR(1.414216, improve(1.4167, 2.0), 0.0000001);
 }
 
 TEST(task1, test5)
