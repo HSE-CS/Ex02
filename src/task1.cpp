@@ -1,8 +1,6 @@
-#include <cmath>
+#include <math.h>
 #include <stdio.h>
-
-#include"task1.h"
-
+#include "task1.h"
 
 double delta = 0.00000001;
 
@@ -18,7 +16,7 @@ bool good(double guess, double x)
 
 double improve(double guess, double x)
 {
-	return average(guess, x / guess);
+		return average(guess, x / guess);
 }
 
 double iter(double guess, double x)
