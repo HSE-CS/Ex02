@@ -5,47 +5,47 @@
 TEST(task1, test_average)
 {
 
-ASSERT_DOUBLE_EQ(2.00, calc(4.0));
+ASSERT_DOUBLE_EQ(10.0, average(5.0, 15.0));
 
 }
 
-TEST(task1, test2)
+TEST(task1, test_good)
 {
-ASSERT_DOUBLE_EQ(4.0,calc(16.0));
+ASSERT_DOUBLE_EQ(0, good(25.0, 5.0));
 
 }
 
-TEST(task1, test3)
+TEST(task1, test_improve)
 {
 
-ASSERT_DOUBLE_EQ(5.0,calc(25.0));
+ASSERT_DOUBLE_EQ(4.66667,improve(9.0, 3.0));
 
 }
 
-TEST(task1, test4)
+TEST(task1, test_iter)
 {
 
-ASSERT_DOUBLE_EQ(3.0,calc(9.0));
+ASSERT_DOUBLE_EQ(2, iter(16.0, 4.0));
 
 }
 
-TEST(task1, test5)
+TEST(task1, test_average_2)
 {
 
-ASSERT_DOUBLE_EQ(1.0,calc(1.0));
+ASSERT_DOUBLE_EQ(6, average(5.0, 7.0));
 
 }
 
 TEST(task1, test6)
 {
 
-ASSERT_NEAR(1.73205,calc(3), 0.0001);
+ASSERT_NEAR(1.73205, calc(3), 0.0001);
 
 }
 TEST(task1, test7)
 {
 
-ASSERT_NEAR(1.41421,calc(2), 0.0001);
+ASSERT_NEAR(1.41421, calc(2), 0.0001);
 
 }
 
