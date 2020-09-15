@@ -17,7 +17,7 @@ include_directories(${COMMON_INCLUDES})
 file(GLOB TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
 
 
-set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/task1.cpp include/task1.h src/task1.cpp src/main1.cpp)
+set(SRC_FILES1 ${PROJECT_SOURCE_DIR}/src/task1.cpp src/task1.cpp src/main1.cpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -32,7 +32,7 @@ target_link_libraries(task1 task1_lib)
 # Testing
 ################################
 
-# Options. Turn on with 'cmake -Dmyvarname=ON'.
+# Options. Turn on with 'cmake -D myvarname=ON'.
 option(BUILD_TESTS "Build all tests." OFF) # Makes boolean 'test' available.
 
 if (BUILD_TESTS)
