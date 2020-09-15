@@ -20,11 +20,11 @@ TEST(task1, test3)
 	
 }
 
-//TEST(task1, test4)
-//{
-//    ASSERT_NEAR(1.73205, calc(3), 0.0001);
-//
-//}
+TEST(task1, test4)
+{
+    ASSERT_NEAR(1.73205, calc(3), 0.0001);
+
+}
 
 TEST(task1, test5)
 {
