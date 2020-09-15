@@ -1,4 +1,4 @@
-#include <math.h>
+#include <cmath>
 #include <iostream>
 #include "task1.h"
 
@@ -7,7 +7,7 @@ double average(double x, double y) {
 }
 
 double good(double guess, double x) {
-	return abs(guess*guess-x)<delta;
+	return fabs(guess*guess-x)<delta;
 }
 
 double improve(double guess, double x) {
