@@ -32,9 +32,6 @@
   <component name="ChangeListManager">
     <list default="true" id="77643bae-bf0a-4a4b-801e-7abf317af5cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1.dir/src/main1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1.dir/src/main1.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/task1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/task1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main1.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_lab1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_lab1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600169779876</updated>
       <workItem from="1600169781226" duration="6561000" />
-      <workItem from="1600200183633" duration="1481000" />
+      <workItem from="1600200183633" duration="1771000" />
     </task>
     <servers />
   </component>
