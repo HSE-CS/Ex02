@@ -43,14 +43,14 @@ TEST(task1, test_calc)
 	ASSERT_DOUBLE_EQ(2.0, calc(4.0));
 
 }
-TEST(task1, test_calc)
+TEST(task1, test_calc1)
 {
 	ASSERT_DOUBLE_EQ(2.0, calc(4.0));
 
 }
 TEST(task1, test_calc2)
 {
-	ASSERT_DOUBLE_EQ(2.828427, calc(8.0));
+	ASSERT_DOUBLE_EQ(2.8, calc(8.0));
 
 }
 TEST(task1, test_calc3)
