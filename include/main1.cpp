@@ -7,10 +7,5 @@
 using namespace std;
 
 int main() {
-	double n;
-	cin >> n;
-	double result = calc(n);
-	cout << result;
-	system("Pause");
 	return 0;
 }
