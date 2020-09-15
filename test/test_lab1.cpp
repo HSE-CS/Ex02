@@ -23,7 +23,7 @@ TEST(task1, test_for_289){
 }
 
 TEST(task1, test_for_3){
-    ASSERT_NEAR(1.732051, calc(2.0), 0.0001);
+    ASSERT_NEAR(1.732051, calc(3.0), 0.0001);
 }
 
 TEST(task1, test_for_5){
