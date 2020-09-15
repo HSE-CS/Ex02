@@ -4,8 +4,6 @@
 #include <iostream>
 using namespace std;
 
-#include <cmath>
-
 double my_abs(double x);
 double average(double x, double y);
 bool good(double guess, double x);
