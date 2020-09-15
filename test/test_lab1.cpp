@@ -9,7 +9,7 @@ ASSERT_DOUBLE_EQ(1.0, calc(1.0));
 
 TEST(task1, test2)
 {
-ASSERT_DOUBLE_EQ(2.0,calc(4.0));
+ASSERT_DOUBLE_EQ(2.00,calc(4.0));
 }
 
 TEST(task1, test3)
