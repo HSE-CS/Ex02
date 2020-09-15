@@ -42,7 +42,7 @@ TEST(task1, test_calc)
     ASSERT_EQ(4, calc(16));
 }
 
-TEST(task1, test_calc)
+TEST(task1, test_calc1)
 {
     ASSERT_EQ(12, calc(144));
 }
