@@ -12,6 +12,16 @@ TEST(task1, test_average2)
     ASSERT_DOUBLE_EQ(10.0, average(13.0, 7.0));
 }
 
+TEST(task1, test_average3)
+{
+    ASSERT_DOUBLE_EQ(15.0, average(26.0, 7.0));
+}
+
+TEST(task1, test_average4)
+{
+    ASSERT_DOUBLE_EQ(54.0, average(100.0, 8.0));
+}
+
 TEST(task1, test_good)
 {
     ASSERT_FALSE(good(0.001, 0.0001));
@@ -42,7 +52,3 @@ TEST(task1, test_calc2)
     ASSERT_DOUBLE_EQ(13.0, calc(169.0));
 }
 
-TEST(task1, test_calc3)
-{
-    ASSERT_DOUBLE_EQ(2.0, calc(4.0));
-}
