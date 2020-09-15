@@ -10,7 +10,7 @@
 
 double calc(double arg);
 
-bool abs(bool src_num);
+double abs(double src_num);
 
 double iter(double guess, double x);
 
