@@ -15,5 +15,5 @@ TEST(task1, TestIsTrue){
 }
 
 TEST(task1,test4) {
-    ASSERT_DOUBLE_EQ(0.31666699999999998, improve(0.3, 0.1));
+    ASSERT_DOUBLE_EQ(2.0, improve(3.0, 3.0));
 }
