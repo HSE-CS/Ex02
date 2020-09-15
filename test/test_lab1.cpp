@@ -37,9 +37,9 @@ ASSERT_DOUBLE_EQ(5.125, improve(4.0, 25.0));
 }
 
 TEST(task1, test1_iter){
-EXPECT_DOUBLE_EQ(3.0, iter(3.0, 9.0));
+ASSERT_DOUBLE_EQ(3.0, iter(3.0, 9.0));
 }
 
-TEST(task1, test1_iter){
+TEST(task1, test2_iter){
 ASSERT_DOUBLE_EQ(7.0, iter(7.0, 49.0))
 }
