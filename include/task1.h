@@ -2,8 +2,6 @@
 #define TASK_H1
 #include <stdio.h>
 #include <math.h>
-
-
 using namespace std;
 
 double average(double x, double y);
