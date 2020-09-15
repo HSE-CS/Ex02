@@ -1,5 +1,4 @@
 #include "task1.h"
-
 #include "gtest/gtest.h"
 
 TEST(task1, test1)
@@ -9,7 +8,7 @@ TEST(task1, test1)
 
 TEST(task1, test2)
 {
-    ASSERT_NEAR(3.0, average(2.0, 4.0), 0.0001);
+    ASSERT_NEAR(0.000317, iter(0.0008, 0.0000001), 0.000001);
 }
 
 TEST(task1, test3)
