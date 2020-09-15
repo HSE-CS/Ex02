@@ -3,7 +3,7 @@
 
 TEST(task1, testCalc1)
 {
-ASSERT_DOUBLE_EQ(2.0, calc(4.0));
+ASSERT_NEAR(2.0, calc(4.0), 0.000001);
 }
 
 TEST(task1, testCalc2)
@@ -18,7 +18,7 @@ ASSERT_NEAR(1.414213562, calc(2.0), 0.000001);
 
 TEST(task1, testCalc4)
 {
-ASSERT_NEAR(0.0, calc(0.0), 0.000001);
+ASSERT_NEAR(8.0, calc(64.0), 0.000001);
 }
 
 TEST(task1, testCalc5)
