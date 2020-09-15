@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <cstdio>
 #include "task1.h"
 
 using namespace std;
