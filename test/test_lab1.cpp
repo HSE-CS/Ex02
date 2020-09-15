@@ -28,5 +28,10 @@ TEST(task1, test5)
 
 TEST(task1, test6)
 {
-    ASSERT_NEAR(3.500000, improve(5.0,10.0), 0.00001);
+    ASSERT_NEAR(3.41667, improve(6.0,5.0), 0.00001);
+}
+
+TEST(task1, test7)
+{
+    ASSERT_NEAR(0.00000, good(7.0, 8.0), 0.00001);
 }
