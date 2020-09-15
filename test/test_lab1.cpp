@@ -32,7 +32,7 @@ ASSERT_EQ(false, good(1, 2));
 TEST(task1, test6)
 {
 
-ASSERT_TRUE_EQ(good(2.82842712, 8));
+ASSERT_TRUE(good(0.000003, 0.00000000000005));
 }
 TEST(task1, test7)
 {
