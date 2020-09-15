@@ -17,3 +17,12 @@ TEST(task1, test_good1)
 {
 	ASSERT_DOUBLE_EQ(false, good(3, 1));
 }
+
+TEST(task1, test_iter)
+{
+	ASSERT_DOUBLE_EQ(0.00002, iter(0.00002, 0.000000004));
+}
+TEST(task1, test_iter2)
+{
+	ASSERT_NEAR(2.449490, iter(9, 6), 0.000001);
+}
