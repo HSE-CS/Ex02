@@ -1,5 +1,5 @@
 #include "task1.h"
-//#include "gtest/gtest.h"
+#include "gtest/gtest.h"
 
 TEST(task1, test_calc_1)
 {
@@ -38,7 +38,7 @@ TEST(task1, test_iter_1)
 
 TEST(task1, test_iter_2)
 {
-    ASSERT_NEAR(2.236068, iter(10, 1), 0.00000001);
+    ASSERT_DOUBLE_EQ(1.0000000000139897, iter(10, 1));
 }
 
 	
