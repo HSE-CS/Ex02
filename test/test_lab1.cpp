@@ -14,11 +14,11 @@ TEST(task1, test1)
 
 TEST(task1, test1)
 {
-    ASSERT_DOUBLE_EQ(false , good(10.0,15.0));
+    ASSERT_BOOL_EQ(false , good(10.0,15.0));
 }
 TEST(task1, test1)
 {
-    ASSERT_DOUBLE_EQ(false , good(11.0,15.0));
+    ASSERT_BOOL_EQ(false , good(11.0,15.0));
 }
 
 TEST(task1, test1)
