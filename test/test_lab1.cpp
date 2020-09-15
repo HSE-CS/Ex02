@@ -17,3 +17,23 @@ TEST(task1, test_average_03)
 {
 	ASSERT_NEAR(average(-1.453, 1.453), 0.0, eps);
 }
+
+TEST(task1, test_good_01)
+{
+    ASSERT_EQ(good(0.0, 0.0), true);
+}
+
+TEST(task1, test_good_02)
+{
+    ASSERT_EQ(good(3.1, 9.61), true);
+}
+
+TEST(task1, test_good_03)
+{
+    ASSERT_EQ(good(3.1, 9.61), true);
+}
+
+TEST(task1, test_good_03)
+{
+    ASSERT_EQ(good(5, 25.0001), false);
+}
