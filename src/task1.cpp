@@ -1,5 +1,4 @@
 #include <cmath>
-#include <iostream>
 using namespace std;
 
 double delta = 0.00000001;
