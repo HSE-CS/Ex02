@@ -17,16 +17,17 @@ TEST(task1, test_for_1){
     ASSERT_NEAR(1.0, calc(1.0), 0.00001);
 }
 
+
+TEST(task1, test_for_289){
+    ASSERT_NEAR(17.0, calc(289.0), 0.00001);
+}
+
 TEST(task1, test_for_3){
     ASSERT_NEAR(1.732051, calc(2.0), 0.0001);
 }
 
 TEST(task1, test_for_5){
     ASSERT_NEAR(2.236068, calc(5.0), 0.00001);
-}
-
-TEST(task1, test_for_289){
-    ASSERT_NEAR(17.0, calc(289.0), 0.00001);
 }
 
 TEST(task1, test_for_100){

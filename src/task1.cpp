@@ -10,7 +10,7 @@
 #include <math.h>
 //#include <cmath>
 
-double delta = 0.0000000001;
+double delta = 0.000000000001;
 
 double average(double x, double y){
     return (x+y)/2.0;
