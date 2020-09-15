@@ -27,19 +27,19 @@ TEST(task1, test_improve2){
 }
 
 TEST(task1, test_iter1){
-    ASSERT_DOUBLE_EQ(14.142136, iter(400.0, 200.0));
+    ASSERT_DOUBLE_EQ(1.00000000, iter(1.0, 1.0));
 }
 
 TEST(task1, test_iter2){
-    ASSERT_DOUBLE_EQ(1.414214, iter(14.0, 2.0));
+    ASSERT_DOUBLE_EQ(1.00000000, iter(2.0, 1.0));
 }
 
 TEST(task1, test_calc1){
-    ASSERT_DOUBLE_EQ(3.741657, calc(14.0));
+    ASSERT_DOUBLE_EQ(1.00000000, calc(1.0));
 }
 
 TEST(task1, test_calc2){
-    ASSERT_DOUBLE_EQ(2.449490, calc(6.0));
+    ASSERT_DOUBLE_EQ(2.00000000, calc(4.0));
 }
 
 
