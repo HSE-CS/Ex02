@@ -1,5 +1,11 @@
-#include <math.h>
 #include "task1.h"
+
+double abs(double x)
+{
+    if(x>0)
+        return x;
+    return -x;
+}
 
 double delta = 0.00000001;
 
