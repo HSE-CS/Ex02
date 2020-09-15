@@ -1,5 +1,5 @@
-#include <math.h>
-
+#include <cmath>
+using namespace std;
 double delta=0.00000001;
 double average (double x,double y) {
     return (x+y) /2.0;
