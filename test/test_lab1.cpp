@@ -35,26 +35,22 @@ TEST(task1, test_iter)
 }
 TEST(task1, test_iter2)
 {
-	ASSERT_DOUBLE_EQ(2.236068, iter(10, 5));
+	ASSERT_NEAR(2.236068, iter(10, 5), 0.000001);
 
 }
-TEST(task1, test_calc)
-{
-	ASSERT_DOUBLE_EQ(2.0, calc(4.0));
 
-}
 TEST(task1, test_calc1)
 {
-	ASSERT_DOUBLE_EQ(2.0, calc(4.0));
+	ASSERT_NEAR(2.0, calc(4.0), 0.000001);
 
 }
 TEST(task1, test_calc2)
 {
-	ASSERT_DOUBLE_EQ(2.8, calc(8.0));
+	ASSERT_NEAR(2.828427, calc(8.0), 0.000001);
 
 }
 TEST(task1, test_calc3)
 {
-	ASSERT_DOUBLE_EQ(3.0, calc(9.0));
+	ASSERT_NEAR(3.0, calc(9.0), 0.000001);
 
 }
