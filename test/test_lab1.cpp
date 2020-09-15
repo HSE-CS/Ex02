@@ -3,5 +3,5 @@
 
 TEST(task1, test1)
 {
-    ASSERT_EQ(3.000000000, calc(9));
+    ASSERT_NEAR(2.449490, calc(6.0), 0.00001);
 }
