@@ -4,7 +4,7 @@
 
 int main()
 {
-    double result = calc(2.0);
+    double result = improve(13.0, 1.0);
     printf("Sqrt(%lf)=%lf\n", 2.0, result);
     return 0;
 }
