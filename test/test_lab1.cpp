@@ -2,7 +2,7 @@
 #include "gtest/gtest.h"
 
 TEST(task1,test1) {
-    ASSERT_DOUBLE_EQ(2.0, average(0.1, 0.3));
+    ASSERT_DOUBLE_EQ(0.20000000000000001, average(0.1, 0.3));
 }
 
 TEST(task1, test_zero) {
@@ -10,10 +10,10 @@ TEST(task1, test_zero) {
 }
 
 TEST(task1, TestIsTrue){
-    EXPECT_TRUE(good(0.0000000000000000001, 0.0000000000000000001));
+    ASSERT_FALSE(good(0.0000000000000000001, 0.0000000000000000001));
 
 }
 
 TEST(task1,test4) {
-    ASSERT_DOUBLE_EQ(0.316667, improve(0.3, 0.1));
+    ASSERT_DOUBLE_EQ(0.31666699999999998, improve(0.3, 0.1));
 }
