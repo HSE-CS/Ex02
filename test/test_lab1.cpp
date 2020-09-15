@@ -6,22 +6,22 @@
 
 TEST(task1, test1)
 {
-ASSERT_NEAR(3.16227766, calc(10), 8);
+ASSERT_NEAR(3.16227766, calc(10), 0.0000001);
 }
 
 TEST(task1, test2)
 {
-ASSERT_NEAR(2.82842712, calc(8), 8);
+ASSERT_NEAR(2.82842712, calc(8), 0.0000001);
 }
 
 TEST(task1, test3)
 {
-ASSERT_DOUBLE_EQ(1.4167, improve(1.5, 2));
+ASSERT_DOUBLE_EQ(1.416667, improve(1.5, 2));
 }
 
 TEST(task1, test4)
 {
-ASSERT_DOUBLE_EQ(1.4142, improve(1.4167, 2));
+ASSERT_DOUBLE_EQ(1.414216, improve(1.4167, 2));
 }
 
 TEST(task1, test5)
@@ -32,7 +32,7 @@ ASSERT_EQ(false, good(1, 2));
 TEST(task1, test6)
 {
 
-ASSERT_EQ(true, good(2.82842712, 8));
+ASSERT_TRUE_EQ(good(2.82842712, 8));
 }
 TEST(task1, test7)
 {
@@ -48,5 +48,5 @@ ASSERT_DOUBLE_EQ(4.0, average(4, 4));
 }
 TEST(task1, test10)
 {
-ASSERT_DOUBLE_EQ(3.31662479, calc(11));
+ASSERT_EQ(false, good(1, 2));
 }
