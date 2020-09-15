@@ -31,3 +31,23 @@ TEST(iter, test2)
 {
     ASSERT_NEAR(1.41421356, iter(1.0, 2.0), 0.00000001);
 }
+
+TEST(calc, test1)
+{
+    ASSERT_NEAR(39.6106046, calc(1569.0), 0.00000001)
+}
+
+TEST(calc, test2)
+{
+    ASSERT_NEAR(1.0, calc(1.0), 0.00000001)
+}
+
+TEST(calc, test3)
+{
+    ASSERT_NEAR(1.58113883, calc(2.5), 0.00000001)
+}
+
+TEST(calc, test4)
+{
+    ASSERT_NEAR(3.0, calc(9.0), 0.00000001)
+}
