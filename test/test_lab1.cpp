@@ -2,6 +2,8 @@
 
 #include "gtest/gtest.h"
 
+
+
 TEST(task1, test1)
 {
 ASSERT_NEAR(3.16227766, calc(10), 8);
