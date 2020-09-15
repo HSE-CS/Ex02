@@ -1,7 +1,9 @@
 //
 // Created by Игорь Тюлин on 15.09.2020.
 //
+#include "task1.h"
 #include <cmath>
+#include <iostream>
 #include <stdio.h>
 using namespace std;
 double delta = 0.00000000000001;

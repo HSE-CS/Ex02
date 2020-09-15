@@ -1,5 +1,6 @@
 #include "task1.h"
 #include <stdio.h>
+#include <cmath>
 
 int main()
 {
