@@ -42,8 +42,8 @@ TEST(task1, test8)
 
 }
 Test(task1, test9) {
-	assert_near(3.300000, improve(5.0, 8.0), 0.000001);
+	ASSERT_NEAR(3.300000, improve(5.0, 8.0), 0.000001);
 }
 Test(task1, test10) {
-	assert_near(3.571429, improve(7.0, 1.0), 0.000001);
+	ASSERT_NEAR(3.571429, improve(7.0, 1.0), 0.000001);
 }
