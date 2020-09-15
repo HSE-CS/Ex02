@@ -5,7 +5,7 @@
 TEST(task1, test1)
 {
 //ASSERT_DOUBLE_EQ(1.41421400, calc(2.0));
-ASSERT_NEAR(2.449490, calc(6.0), 0,00001);
+ASSERT_NEAR(2.449490, calc(6.0), 0.00001);
 }
 /*
 TEST(task1, test2)
