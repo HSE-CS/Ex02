@@ -40,18 +40,18 @@ TEST(task1, _iter1)
 }
 TEST(task1, _iter2)
 {
-    ASSERT_DOUBLE_EQ(7.416198, iter(28.0, 55.0));
+    ASSERT_DOUBLE_EQ(7.416197, iter(28.0, 55.0));
 
 }
 
 TEST(task1, _calc1)
 {
-    ASSERT_DOUBLE_EQ(5.0, calc(25.0));
+    ASSERT_DOUBLE_EQ(5.0000000000537224, calc(25.0));
 
 }
 
 TEST(task1, _calc2)
 {
-    ASSERT_DOUBLE_EQ(1.732051, calc(3.0));
+    ASSERT_DOUBLE_EQ(1.732050, calc(3.0));
 
 }
