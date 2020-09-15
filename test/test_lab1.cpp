@@ -21,12 +21,10 @@ TEST(task1, test4)
     ASSERT_NEAR(1.000000, average(1.0,1.0), 0.00001);
 }
 
-
-
-//TEST(task1, test5)
-//{
-//    ASSERT_NEAR(21.354200, iter(123.0, 456.0), 0.00001);
-//}
+TEST(task1, test5)
+{
+    ASSERT_NEAR(21.35420, iter(123.0, 456.0), 0.00001);
+}
 
 TEST(task1, test6)
 {
