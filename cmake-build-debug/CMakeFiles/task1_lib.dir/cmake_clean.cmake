@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/task1_lib.dir/src/main1.cpp.obj"
   "CMakeFiles/task1_lib.dir/src/task1.cpp.obj"
-  "CMakeFiles/task1_lib.dir/src/test_lab1.cpp.obj"
   "task1_lib.lib"
   "task1_lib.pdb"
 )

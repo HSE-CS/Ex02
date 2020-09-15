@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Disk_D/My projects/C++/Ex02/src/main1.cpp" "C:/Disk_D/My projects/C++/Ex02/cmake-build-debug/CMakeFiles/task1_lib.dir/src/main1.cpp.obj"
   "C:/Disk_D/My projects/C++/Ex02/src/task1.cpp" "C:/Disk_D/My projects/C++/Ex02/cmake-build-debug/CMakeFiles/task1_lib.dir/src/task1.cpp.obj"
-  "C:/Disk_D/My projects/C++/Ex02/src/test_lab1.cpp" "C:/Disk_D/My projects/C++/Ex02/cmake-build-debug/CMakeFiles/task1_lib.dir/src/test_lab1.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

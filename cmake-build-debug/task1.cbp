@@ -141,9 +141,6 @@
 		<Unit filename="C:/Disk_D/My projects/C++/Ex02/src/task1.cpp">
 			<Option target="task1_lib"/>
 		</Unit>
-		<Unit filename="C:/Disk_D/My projects/C++/Ex02/src/test_lab1.cpp">
-			<Option target="task1_lib"/>
-		</Unit>
 		<Unit filename="C:/Disk_D/My projects/C++/Ex02/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

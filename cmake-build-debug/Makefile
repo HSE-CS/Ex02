@@ -194,33 +194,6 @@ src\task1.cpp.s:
 	$(MAKE) -f CMakeFiles\task1_lib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task1_lib.dir\src\task1.cpp.s
 .PHONY : src\task1.cpp.s
 
-src\test_lab1.obj: src\test_lab1.cpp.obj
-
-.PHONY : src\test_lab1.obj
-
-# target to build an object file
-src\test_lab1.cpp.obj:
-	$(MAKE) -f CMakeFiles\task1_lib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task1_lib.dir\src\test_lab1.cpp.obj
-.PHONY : src\test_lab1.cpp.obj
-
-src\test_lab1.i: src\test_lab1.cpp.i
-
-.PHONY : src\test_lab1.i
-
-# target to preprocess a source file
-src\test_lab1.cpp.i:
-	$(MAKE) -f CMakeFiles\task1_lib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task1_lib.dir\src\test_lab1.cpp.i
-.PHONY : src\test_lab1.cpp.i
-
-src\test_lab1.s: src\test_lab1.cpp.s
-
-.PHONY : src\test_lab1.s
-
-# target to generate assembly for a file
-src\test_lab1.cpp.s:
-	$(MAKE) -f CMakeFiles\task1_lib.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\task1_lib.dir\src\test_lab1.cpp.s
-.PHONY : src\test_lab1.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -237,9 +210,6 @@ help:
 	@echo ... src/task1.obj
 	@echo ... src/task1.i
 	@echo ... src/task1.s
-	@echo ... src/test_lab1.obj
-	@echo ... src/test_lab1.i
-	@echo ... src/test_lab1.s
 .PHONY : help
 
 

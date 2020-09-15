@@ -1,4 +1,5 @@
-//
-// Created by Dmitry on 15.09.2020.
-//
+#include "task1.h"
 
+int main(){
+    cout << calc(256);
+}
