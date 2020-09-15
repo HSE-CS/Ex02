@@ -3,17 +3,17 @@
 
 TEST(task1, test1)
 {
-	ASSERT_DOUBLE_EQ(1.4142135, calc(2.0));
+	ASSERT_NEAR(1.4142135, calc(2.0), 0.000001);
 }
 
 TEST(task1, test2)
 {
-	ASSERT_DOUBLE_EQ(2.0, calc(4.0));
+	ASSERT_NEAR(2.0, calc(4.0), 0.000001);
 }
 
 TEST(task1, test3)
 {
-	ASSERT_DOUBLE_EQ(4.58257569, calc(21.0));
+	ASSERT_NEAR(4.58257569, calc(21.0), 0.000001);
 }
 
 TEST(task1, test4)
