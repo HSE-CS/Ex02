@@ -50,7 +50,7 @@ TEST(task1, testAverage2){
 }
 
 TEST(task1, testGood1){
-    ASSERT_EQ(1, good(1.0, 0.999999));
+    ASSERT_EQ(1, good(1.0, 0.99999999999));
 }
 
 TEST(task1, testGood2){
