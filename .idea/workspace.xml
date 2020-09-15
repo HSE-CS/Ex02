@@ -31,10 +31,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77643bae-bf0a-4a4b-801e-7abf317af5cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1.dir/src/main1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1.dir/src/main1.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/task1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/task1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main1.cpp" afterDir="false" />
@@ -103,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600169779876</updated>
       <workItem from="1600169781226" duration="6561000" />
-      <workItem from="1600200183633" duration="164000" />
+      <workItem from="1600200183633" duration="1481000" />
     </task>
     <servers />
   </component>
@@ -131,21 +128,21 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1600173389637" />
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1600200306199">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1600201452145">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1600200306199" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1600200306198">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1600201452145" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1600201452145">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1600200306198" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1600200306198">
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1600201452145" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1600201452144">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1600200306198" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1600200306199">
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1600201452144" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1600201452145">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1600200306199" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1600201452145" />
   </component>
 </project>

@@ -23,3 +23,19 @@ TEST(task1, test_good2) {
     ASSERT_EQ(0, good(12, 143.9999888));
 }
 
+TEST(task1, test_good3) {
+    ASSERT_EQ(1, good(-8.00000000000000001, 64.));
+}
+
+TEST(task1, test_calc1) {
+    ASSERT_NEAR(12., calc(144.000000000000000073475868236942), 1e-8);
+}
+
+TEST(task1, test_calc2) {
+    ASSERT_NEAR(0e-10, calc(-1e-20), 1e-8);
+}
+
+TEST(task1, test_calc3) {
+    ASSERT_NEAR(1.64872+1e-9, calc(2.718281828459045235360), 1e-8);
+}
+

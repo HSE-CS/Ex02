@@ -8,9 +8,9 @@
 using namespace std;
 
 int main() {
-    double a = calc(64);
-    bool r = good(12, 143.9999888);
-    cout << r << endl;
+    double a = calc(2.718281828459045235360);
+//    bool r = good(-8.00000000000000001, 64.);
+//    cout << r << endl;
     cout << a;
     return 0;
 }
