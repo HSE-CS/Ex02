@@ -44,7 +44,7 @@ TEST(task1, test3)
 
 TEST(task1, test4)
 {
-	ASSERT_FALSE(good(1.0, 1.0));
+	ASSERT_FALSE(good(1.0, 0.0));
 }
 
 TEST(task1, test5)
@@ -54,7 +54,7 @@ TEST(task1, test5)
 
 TEST(task1, test6)
 {
-	ASSERT_NEAR(5.1, improve(4.0, 2.0), 0.01);
+	ASSERT_NEAR(5.1, improve(4.0, 2.0), 0.1);
 }
 
 TEST(task1, test7)
