@@ -14,7 +14,7 @@ TEST(task1, test_average2)
 
 TEST(task1, test_average3)
 {
-    ASSERT_DOUBLE_EQ(15.0, average(26.0, 7.0));
+    ASSERT_DOUBLE_EQ(16.5, average(26.0, 7.0));
 }
 
 TEST(task1, test_average4)
