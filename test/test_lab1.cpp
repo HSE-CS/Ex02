@@ -28,11 +28,11 @@ TEST(task1, test_good3) {
 }
 
 TEST(task1, test_calc1) {
-    ASSERT_NEAR(12., calc(144.00000000000000000000000073475868236942), 0.00000001);
+    ASSERT_NEAR(12., calc(144.0), 0.00000001);
 }
 
 TEST(task1, test_calc2) {
-    ASSERT_NEAR(0, calc(-1e-20), 0.00000001);
+    ASSERT_NEAR(0, calc(.0), 0.00000001);
 }
 
 TEST(task1, test_calc3) {
