@@ -44,11 +44,9 @@ TEST(task1, test_improve_2)
 TEST(task1, test_iter_1)
 {
 	ASSERT_DOUBLE_EQ(0.00003, iter(0.00003, 0.000000005));
-
 }
 
 TEST(task1, test_iter_2)
 {
 	ASSERT_NEAR(2.236068, iter(10, 5), 0.000001);
-
 }
