@@ -1,4 +1,5 @@
 #include <cmath>
+#include <math.h>
 #include <stdio.h>
 #include "task1.h"
 

@@ -8,5 +8,4 @@ double improve(double guess, double x);
 double iter(double guess, double x);
 double cale(double arg);
 
-#endif 
-
+#endif
