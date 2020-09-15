@@ -16,7 +16,7 @@ double average(double x, double y){
     return (x+y)/2.0;
 }
 
-bool abs(bool src_num){
+bool abs(double src_num){
     if (src_num < 0.0)
         return src_num * -1;
     else return src_num;
