@@ -27,7 +27,7 @@ TEST(task1, test2_good){
 }
 
 TEST(task1, test1_improve){
-    ASSERT_NEAR(39.149351, improve(77.0, 100.0), 0.0000001);
+    ASSERT_NEAR(39.149, improve(77.0, 100.0), 0.00001);
 }
 
 TEST(task1, test2_improve){
