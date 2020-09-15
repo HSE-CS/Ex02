@@ -1,8 +1,14 @@
 #include <math.h>
 #include <stdio.h>
-#include <cmath>
+
 
 double delta = 0.00000001;
+
+double my_abs(double x)
+{
+	if (x < 0)
+		return x * (-1);
+}
 
 double average(double x, double y)
 {
@@ -11,7 +17,7 @@ double average(double x, double y)
 
 bool good(double guess, double x)
 {
-	return abs(guess * guess - x) < delta;
+	return my_abs(guess * guess - x) < delta;
 }
 
 double improve(double guess, double x)
