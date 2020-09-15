@@ -32,3 +32,18 @@ TEST(task1, test_good_03)
 {
     ASSERT_EQ(good(5, 25.0001), false);
 }
+
+TEST(task1, test_calc_01)
+{
+	ASSERT_NEAR(calc(0.0), 0.0, eps);
+}
+
+TEST(task1, test_calc_02)
+{
+	ASSERT_NEAR(calc(64.0), 8.0, eps);
+}
+
+TEST(task1, test_calc_03)
+{
+	ASSERT_NEAR(calc(55.2049), 7.43, eps);
+}
