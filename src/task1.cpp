@@ -27,7 +27,7 @@ double improve(double guess, double x)
 double iter(double guess, double x)
 {
     if(good(guess, x))
-        return guess
+        return guess;
     else
         return iter(improve(guess, x), x);
 }
