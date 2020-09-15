@@ -18,7 +18,7 @@ ASSERT_DOUBLE_EQ(0, good(25.0, 5.0));
 TEST(task1, test_improve)
 {
 
-ASSERT_DOUBLE_EQ(4.66667,improve(9.0, 3.0));
+ASSERT_NEAR(4.66667, improve(9.0, 3.0), 0.001);
 
 }
 
