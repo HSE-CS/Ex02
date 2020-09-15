@@ -29,26 +29,26 @@ TEST(task1, test5)
 
 TEST(task1, test6)
 {
-	ASSERT_DOUBLE_EQ(450.003,improve(900.0,5.1));
+	ASSERT_DOUBLE_EQ(26.0, improve(50.0, 100.0));
 }
 
 TEST(task1, test7)
 {
-	ASSERT_DOUBLE_EQ(3.87298,iter(1.0,15.0));
+	ASSERT_NEAR(3.87298,iter(1.0,15.0));
 }
 
 TEST(task1, test8)
 {
-	ASSERT_DOUBLE_EQ(1.58114,iter(11.0,2.5));
+	ASSERT_NEAR(1.58114,iter(11.0,2.5));
 }
 
 TEST(task1, test9)
 {
-	ASSERT_DOUBLE_EQ(29.274,calc(856.965));
+	ASSERT_NEAR(29.274,calc(856.965));
 }
 
 TEST(task1, test10)
 {
-	ASSERT_DOUBLE_EQ(7.005,calc(49.07));
+	ASSERT_NEAR(7.005,calc(49.07));
 }
 
