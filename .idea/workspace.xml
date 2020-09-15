@@ -12,11 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c46164f7-03b0-47d6-aa18-1f6b3ee5e694" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_lab1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_lab1.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="c46164f7-03b0-47d6-aa18-1f6b3ee5e694" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunManager" selected="CMake Application.task1">
     <configuration name="task1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="task1" TARGET_NAME="task1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="task1" RUN_TARGET_NAME="task1">
@@ -74,7 +70,7 @@
       <workItem from="1600157872541" duration="7478000" />
       <workItem from="1600166332409" duration="79000" />
       <workItem from="1600166446344" duration="2000" />
-      <workItem from="1600181955374" duration="1436000" />
+      <workItem from="1600181955374" duration="1745000" />
     </task>
     <servers />
   </component>
