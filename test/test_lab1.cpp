@@ -34,10 +34,10 @@ TEST(task1, test_for_100){
     ASSERT_NEAR(10.0, calc(100.0), 0.00001);
 }
 
-TEST(task1, test_for_05){
-    ASSERT_NEAR(0.707107, calc(0.5), 0.00001);
+TEST(task1, test_for_36){
+    ASSERT_NEAR(6.0, calc(36.0), 0.00001);
 }
 
-TEST(task1, test_for_12){
-    ASSERT_NEAR(3.464102, calc(12.0), 0.00001);
+TEST(task1, test_for_144){
+    ASSERT_NEAR(12, calc(144.0), 0.00001);
 }
