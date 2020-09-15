@@ -5,10 +5,6 @@ TEST(task1, test_for_4){
     ASSERT_NEAR(2.0, calc(4.0), 0.00001);
 }
 
-TEST(task1, test_for_9){
-    ASSERT_NEAR(3.0, calc(9.0), 0.00001);
-}
-
 TEST(task1, test_for_81){
     ASSERT_NEAR(9.0, calc(81.0), 0.00001);
 }
@@ -17,27 +13,34 @@ TEST(task1, test_for_1){
     ASSERT_NEAR(1.0, calc(1.0), 0.00001);
 }
 
-
-TEST(task1, test_for_289){
-    ASSERT_NEAR(17.0, calc(289.0), 0.00001);
+TEST(task1, good_compare1){
+    ASSERT_FALSE(good(2.0, 5.0));
 }
 
-TEST(task1, test_for_3){
-    ASSERT_NEAR(1.732051, calc(3.0), 0.0001);
+TEST(task1, good_compare2){
+    ASSERT_TRUE(good(1.0, 1.0));
 }
 
-TEST(task1, test_for_5){
-    ASSERT_NEAR(2.236068, calc(5.0), 0.00001);
+TEST(task1, test_average1){
+    ASSERT_NEAR(11.0, average(12.0, 10.0), 0.00001);
 }
 
-TEST(task1, test_for_100){
-    ASSERT_NEAR(10.0, calc(100.0), 0.00001);
+TEST(task1, test_average2){
+    ASSERT_NEAR(-5.0, average(0.0, -10.0), 0.00001);
 }
 
-TEST(task1, test_for_36){
-    ASSERT_NEAR(6.0, calc(36.0), 0.00001);
+TEST(task1, test_improve){
+    ASSERT_NEAR(1.5, improve(1.0, 2.0), 0.00001);
 }
 
-TEST(task1, test_for_144){
-    ASSERT_NEAR(12, calc(144.0), 0.00001);
+TEST(task1, abs_test){
+    ASSERT_EQ(1.0, abs(-1.0));
+}
+
+TEST(task1, abs_test){
+    ASSERT_EQ(1.0, abs(1.0));
+}
+
+TEST(task1, iter_test){
+    ASSERT_NEAR(3.0, iter(1.0, 9.0), 0.00001);
 }
