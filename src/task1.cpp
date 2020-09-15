@@ -1,9 +1,9 @@
 //
 // Created by Игорь Тюлин on 15.09.2020.
 //
-#include <math.h>
+#include <cmath>
 #include <stdio.h>
-
+using namespace std;
 double delta = 0.00000000000001;
 
 double average(double x, double y) {

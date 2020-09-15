@@ -43,10 +43,10 @@ TEST(task1, test8)
 
 TEST(task1, test9)
 {
-    ASSERT_EQ(false, good(4,3));
+    ASSERT_EQ(0, good(4,3));
 }
 
 TEST(task1, test10)
 {
-    ASSERT_EQ(true, good(17, 289));
+    ASSERT_EQ(1, good(17, 289));
 }
