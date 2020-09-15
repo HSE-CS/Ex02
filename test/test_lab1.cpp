@@ -3,7 +3,7 @@
 
 TEST(task1, testCalc)
 {
-	ASSERT_DOUBLE_EQ(2.0, calc(4.0));
+	ASSERT_NEAR(2.0, calc(4.0), 0.00000001);
 	ASSERT_DOUBLE_EQ(3.0, calc(9.0));
 }
 TEST(task1, testAverage)
@@ -13,7 +13,7 @@ TEST(task1, testAverage)
 }
 TEST(task1, testGood)
 {
-	ASSERT_TRUE(good(0.25, 0.62499999));
+	ASSERT_FALSE(good(0.25, 0.62499999));
 	ASSERT_FALSE(good(100.0, 1.0));
 }
 TEST(task1, testImprove)
