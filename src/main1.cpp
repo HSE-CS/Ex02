@@ -5,8 +5,7 @@
 int main()
 {
 	double n;
-	printf(" Input number: \n");
-	scanf_s("%lf", &n);
+	n = 16.0;
 
 	double result = calc(n);
 	printf("Sgqrt(%lf) = % 1lf\n", n , result);
