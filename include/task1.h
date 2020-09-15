@@ -5,8 +5,6 @@
 #ifndef TASK1_TASK1_H
 #define TASK1_TASK1_H
 
-#include <iostream>
-
 double abs_custom(double x);
 
 double average(double x, double y);
