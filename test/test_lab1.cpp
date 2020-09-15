@@ -56,7 +56,7 @@ TEST(task1, test9)
 	
 }
 
-TEST(task1, tes10)
+TEST(task1, test10)
 {
     ASSERT_NEAR(8.36660,calc(70), 0.0001);
 	
