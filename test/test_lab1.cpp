@@ -34,21 +34,21 @@ TEST(task1, test6)
 
 TEST(task1, test7)
 {
-	ASSERT_NEAR(3.87298,iter(1.0,15.0),0.000001);
+	ASSERT_NEAR(3.87298,iter(1.0,15.0),0.001);
 }
 
 TEST(task1, test8)
 {
-	ASSERT_NEAR(1.58114,iter(11.0,2.5),0.000001);
+	ASSERT_NEAR(1.58114,iter(11.0,2.5),0.001);
 }
 
 TEST(task1, test9)
 {
-	ASSERT_NEAR(29.274,calc(856.965),0.000001);
+	ASSERT_NEAR(29.274,calc(856.965),0.001);
 }
 
 TEST(task1, test10)
 {
-	ASSERT_NEAR(7.005,calc(49.07),0.000001);
+	ASSERT_NEAR(7.005,calc(49.07),0.001);
 }
 
