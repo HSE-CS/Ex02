@@ -2,8 +2,9 @@
 
 using namespace std;
 int main() {
-    double result;
-    cin >> result;
-    cout << calc(result);
+    double num;
+    cin >> num;
+    double result = calc(num);
+    cout << result;
     return 0;
 }
