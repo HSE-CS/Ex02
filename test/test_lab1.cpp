@@ -58,7 +58,7 @@ TEST(task1, test9)
 
 TEST(task1, test10)
 {
-	ASSERT_DOUBLE_EQ(9.0, calc(81));
+	ASSERT_DOUBLE_EQ(90.0, calc(8100));
 
 }
 
