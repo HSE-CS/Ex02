@@ -30,9 +30,9 @@ TEST(task1, test6)
 {
 	ASSERT_TRUE(good(1.0, 1.0));
 }
-TEST(task1, tes7)
+TEST(task1, tesT7)
 {
-	ASSERT_DOUBLE_EQ(1.414214, iter(4.0, 2.0));
+	ASSERT_NEAR(1.414214, iter(4.0, 2.0),0.000001);
 
 }
 
