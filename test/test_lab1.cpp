@@ -4,7 +4,7 @@
 
 TEST(task1, test1)
 {
-ASSERT_EQ(2.00000000, calc(4.00000000));
+ASSERT_EQ(2.00000000, calc(4));
 
 }
 /*
