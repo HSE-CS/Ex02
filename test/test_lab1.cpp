@@ -29,16 +29,16 @@ ASSERT_DOUBLE_EQ(5.0,calc(25.0));
 
 TEST(task1, test6)
 {
-ASSERT_NEAR(1.66666,calc(3), 0.0001);
+ASSERT_NEAR(1.6666666,calc(3), 0.0000001);
 }
 TEST(task1, test7)
 {
-ASSERT_NEAR(1.32322,calc(2), 0.0001);
+ASSERT_NEAR(1.3223223,calc(2), 0.0000001);
 }
 
 TEST(task1, test8)
 {
-ASSERT_NEAR(2.78863,calc(8), 0.0001);
+ASSERT_NEAR(2.7898789,calc(8), 0.0000001);
 }
 
 TEST(task1, test9)
