@@ -1,3 +1,6 @@
+#include "task1.h"
+#include "gtest/gtest.h"
+
 double eps = 0.00000001;
 
 TEST(task1, test_average_01)
