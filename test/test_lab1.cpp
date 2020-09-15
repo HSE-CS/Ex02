@@ -2,11 +2,6 @@
 
 #include "gtest/gtest.h"
 
-TEST(task1, test_average)
-{
-    ASSERT_DOUBLE_EQ(5.0, average(10000.0, 2000.0));
-}
-
 TEST(task1, test_average1)
 {
     ASSERT_DOUBLE_EQ(2000.0, average(2000.0, 2000.0));
@@ -37,12 +32,17 @@ TEST(task1, test_iter)
     ASSERT_DOUBLE_EQ(0.0001, iter(0.0001, 0.00000001));
 }
 
-TEST(task1, test_calc)
-{
-    ASSERT_DOUBLE_EQ(4, calc(16));
-}
-
 TEST(task1, test_calc1)
 {
-    ASSERT_DOUBLE_EQ(12, calc(144));
+    ASSERT_DOUBLE_EQ(12.0, calc(144.0));
+}
+
+TEST(task1, test_calc2)
+{
+    ASSERT_DOUBLE_EQ(13.0, calc(169.0));
+}
+
+TEST(task1, test_calc3)
+{
+    ASSERT_DOUBLE_EQ(2.0, calc(4.0));
 }
