@@ -30,10 +30,5 @@ TEST(task1, test_good_02)
 
 TEST(task1, test_good_03)
 {
-    ASSERT_EQ(good(3.1, 9.61), true);
-}
-
-TEST(task1, test_good_03)
-{
     ASSERT_EQ(good(5, 25.0001), false);
 }
