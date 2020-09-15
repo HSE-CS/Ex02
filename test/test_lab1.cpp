@@ -33,11 +33,11 @@ TEST(task1, test_improve){
     ASSERT_NEAR(1.5, improve(1.0, 2.0), 0.00001);
 }
 
-TEST(task1, abs_test){
+TEST(task1, modulo1){
     ASSERT_EQ(1.0, abs(-1.0));
 }
 
-TEST(task1, abs_test){
+TEST(task1, modulo2){
     ASSERT_EQ(1.0, abs(1.0));
 }
 
