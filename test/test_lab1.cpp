@@ -52,7 +52,7 @@ ASSERT_NEAR(1.3,calc(2), 0.00000001);
 TEST(task1, test8)
 {
 
-ASSERT_NEAR(8.0, calc(64.0), 0.00000001;
+ASSERT_NEAR(8.0, calc(64.0), 0.00000001);
 
 }
 
