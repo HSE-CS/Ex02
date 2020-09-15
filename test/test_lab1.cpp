@@ -3,8 +3,8 @@
 
 TEST(task1, testCalc)
 {
-	ASSERT_DOUBLE_EQ(2.0, calc(4.0);
-	ASSERT_DOUBLE_EQ(4.358899, calc(19.0);
+	ASSERT_DOUBLE_EQ(2.0, calc(4.0));
+	ASSERT_DOUBLE_EQ(4.358899, calc(19.0));
 }
 TEST(task1, testAverage)
 {
@@ -13,7 +13,7 @@ TEST(task1, testAverage)
 }
 TEST(task1, testGood)
 {
-	ASSERT_TRUE(good(0.25, 0.62499999);
+	ASSERT_TRUE(good(0.25, 0.62499999));
 	ASSERT_FALSE(good(999, 1));
 }
 TEST(task1, testImprove)
@@ -23,5 +23,5 @@ TEST(task1, testImprove)
 }
 TEST(task1, testIter) {
 	ASSERT_DOUBLE_EQ(5.0, iter(5.0, 25.0));
-	ASSERT_DOUBLE_EQ(5.1961524227066320, iter(6.0, 27.0);
+	ASSERT_DOUBLE_EQ(5.1961524227066320, iter(6.0, 27.0));
 }
