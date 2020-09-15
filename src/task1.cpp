@@ -1,16 +1,20 @@
 #include "task1.h"
-//#include <math.h>
-#include <cmath>
-//#include "..\include\task1.h"
+#include <math.h>
 
 double delta = 0.00000001;
+
+double abcabc(double x){
+    if (x>0)
+        return x;
+    return -x;
+}
 
 double average(double x, double y){
 	return (x+y)/2.0;
 }
 
 bool good(double guess, double x){
-	return fabs(guess*guess-x)<delta;
+	return abcabc(guess*guess-x)<delta;
 }
 
 double improve(double guess, double x){
