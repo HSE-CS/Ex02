@@ -8,6 +8,8 @@ double my_abs(double x)
 {
 	if (x < 0)
 		return x * (-1);
+	else
+		return x;
 }
 
 double average(double x, double y)
