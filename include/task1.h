@@ -2,6 +2,7 @@
 #define CIRCLE_H
 #include <iostream>
 #include <cmath>
+using namespace std;
 
 double average(double x, double y);
 bool good(double guess, double x);
