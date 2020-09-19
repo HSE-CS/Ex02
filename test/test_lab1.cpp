@@ -46,7 +46,7 @@ TEST(task1, test_iter1)
 
 TEST(task1, test_iter2)
 {
-	ASSERT_NEAR(0.001227, iter(20.1, 0), 0.000001);
+	ASSERT_NEAR(0.000000, iter(2.2, 0.0), 0.000001);
 
 }
 
