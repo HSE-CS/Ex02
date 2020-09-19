@@ -40,25 +40,25 @@ TEST(task1, test_improve2)
 
 TEST(task1, test_iter1)
 {
-	ASSERT_NEAR(0.001500, iter(0.003, 0), 0.000001);
+	ASSERT_NEAR(1.000000, iter(10, 1), 0.000001);
 
 }
 
 TEST(task1, test_iter2)
 {
-	ASSERT_NEAR(0.001758, iter(0.09, 0), 0.000001);
+	ASSERT_NEAR(0.001227, iter(20.1, 0), 0.000001);
 
 }
 
 TEST(task1, test_calc1)
 {
-	ASSERT_NEAR(0.001953, calc(0), 0.000001);
+	ASSERT_NEAR(3.016621, calc(9.1), 0.000001);
 
 }
 
 TEST(task1, test_calc2)
 {
-	ASSERT_NEAR(0.003023, calc(0.000007), 0.000001);
+	ASSERT_NEAR(2.645751, calc(7.0), 0.000001);
 
 }
 
