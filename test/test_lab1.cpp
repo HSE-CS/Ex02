@@ -47,6 +47,6 @@ TEST(task1, test9)
 }
 TEST(task1, test10)
 {
-	ASSERT_DOUBLE_EQ(2.500000, average(2.0, 3.0));
+	ASSERT_NEAR(1.414214, calc(2.0), 0.000001);
 
 }
