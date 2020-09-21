@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "task1.h"
 #include <math.h>
+#include <stdio.h>
 
 double delta = 0.00000001;
 double average(double x, double y)
@@ -18,9 +19,9 @@ double improve(double guess, double x)
 double iter(double guess, double x)
 {
   if (good(guess, x))
-  return guess;
+      return guess;
   else
-  return iter(improve(guess, x), x);
+      return iter(improve(guess, x), x);
 }
 double calc(double arg)
 {
