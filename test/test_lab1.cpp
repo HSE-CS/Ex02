@@ -26,7 +26,7 @@ TEST(task1, test4)
 }
 TEST(task1, test5)
 {
-    ASSERT_NEAR(3.25, average(3.5, 4, 0), 0.001);
+    ASSERT_NEAR(3.25, average(3.5, 4.0), 0.001);
 }
 TEST(task1, test6)
 {
