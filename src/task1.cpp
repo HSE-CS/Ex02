@@ -1,3 +1,4 @@
+#include "math.h"
 double delta=0.00000001;
 
 double average(double x, double y) {
