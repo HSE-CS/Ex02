@@ -26,3 +26,17 @@ TEST(task1, average1)
 	ASSERT_FLOAT_EQ(2.500000, average(2.0, 3.0));
 
 }
+
+TEST(task1, average2)
+{
+	ASSERT_FLOAT_EQ(6.500000, average(10.0, 3.0));
+
+}
+
+
+
+TEST(task1, improve1)
+{
+	ASSERT_FLOAT_EQ(3.33333, improve(10.0, 3.0));
+
+}
