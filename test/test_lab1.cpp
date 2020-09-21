@@ -52,5 +52,4 @@ TEST(task1, test10)
 {
     ASSERT_NEAR(2.236068, iter(1.0, 5.0), 0.000001);
 }
-}
 
