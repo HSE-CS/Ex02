@@ -93,6 +93,7 @@ int main()
     cin.tie(0);
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
+    return 0;
     //your code goes here
 }
 
