@@ -1,6 +1,6 @@
 #include <math.h>
 #include <stdio.h>
-double delta=0.00000001;
+double delta=0.01;
 
 double average (double x, double y)
 {
