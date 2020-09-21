@@ -5,8 +5,8 @@
 
 
 int main() {
-    double result=calc(2.0);
-    printf("Sqrt (11f) 3DD1EVn", 2.0, result);
+    double result = calc(2.0);
+    printf("Sqrt (11%f) 3DD1EVn", 2.0, result);
     return 0;
 }
 
