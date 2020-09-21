@@ -34,6 +34,18 @@ TEST(task1, test5)
 
 TEST(task1, test6)
 {
-	ASSERT_FLOAT_EQ(1.000000, good(0.0, 0.0));
+	ASSERT_FLOAT_EQ(0.000000, good(4.0, 5.0));
+
+}
+
+TEST(task1, test7)
+{
+	ASSERT_FLOAT_EQ(2.625000, improve(4.0, 5.0));
+
+}
+
+TEST(task1, test8)
+{
+	ASSERT_FLOAT_EQ(3.750000, improve(6.0, 9.0));
 
 }
