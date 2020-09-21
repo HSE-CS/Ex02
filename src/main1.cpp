@@ -14,7 +14,7 @@
 #include <map>
 #include <stack>
 #include <malloc.h>
-
+#include "task1.h"
 using namespace std;
 
 
