@@ -1,5 +1,8 @@
 #include "task1.h"
-#include <math.h>
+
+static double abs(double x) {
+	return x > 0 ? x : -x;
+}
 
 double delta = 0.00000001;
 
@@ -8,7 +11,7 @@ double average(double x, double y) {
 }
 
 bool good(double guess, double x) {
-	return fabs(guess * guess - x) < delta;
+	return abs(guess * guess - x) < delta;
 }
 
 double improve(double guess, double x) {
