@@ -5,6 +5,6 @@
 
 TEST(task1, test1)
 {
-	ASSERT_DOUBLE_EQ(1.41421, calc(2.0));
+	ASSERT_NEAR(1.41421, calc(2.0),0.0000001);
 
 }
