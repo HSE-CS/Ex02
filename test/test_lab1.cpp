@@ -1,42 +1,52 @@
-#include "task1.h"
 #include "gtest/gtest.h"
 
-TEST(task1, TestOne) {
-	ASSERT_DOUBLE_EQ(calc(2.0), 1.414214);
-}
+TEST(task1, test1)
+{
+	ASSERT_DOUBLE_EQ(2.500000, average(2.0, 3.0));
 
-TEST(task1, TestTwo) {
-	ASSERT_DOUBLE_EQ(calc(4.0), 2.0);
 }
+TEST(task1, test2)
+{
+	ASSERT_EQ(0.000000, good(5.0, 8.0));
 
-TEST(task1, TestThree) {
-	ASSERT_DOUBLE_EQ(calc(4.0), 2.0);
 }
+TEST(task1, test3)
+{
+	ASSERT_FLOAT_EQ(4.142857, improve(7.0, 9.0));
 
-TEST(task1, TestFour) {
-	ASSERT_DOUBLE_EQ(calc(4.0), 2.0);
 }
+TEST(task1, test4)
+{
+	ASSERT_FLOAT_EQ(23.724460, calc(562.85));
 
-TEST(task1, TestFive) {
-	ASSERT_DOUBLE_EQ(calc(4.0), 2.0);
 }
+TEST(task1, test5)
+{
+	ASSERT_FLOAT_EQ(6.708204, calc(45.0));
 
-TEST(task1, TestSix) {
-	ASSERT_DOUBLE_EQ(calc(4.0), 2.0);
 }
+TEST(task1, test6)
+{
+	ASSERT_FLOAT_EQ(9.380832, calc(88.0));
 
-TEST(task1, TestSeven) {
-	ASSERT_DOUBLE_EQ(calc(4.0), 2.0);
 }
+TEST(task1, test7)
+{
+	ASSERT_FLOAT_EQ(3.000000, iter(7.0, 9.0));
 
-TEST(task1, TestEight) {
-	ASSERT_DOUBLE_EQ(calc(4.0), 2.0);
 }
+TEST(task1, test8)
+{
+	ASSERT_FLOAT_EQ(8.602325, iter(85.0, 74.0));
 
-TEST(task1, TestNine) {
-	ASSERT_EQ(good(3.1415926777, 3.1415926771), true);
 }
+TEST(task1, test9)
+{
+	ASSERT_FLOAT_EQ(1.000000, good(0.0, 0.0));
 
-TEST(task1, TestTen) {
-	ASSERT_EQ(good(3.1415926, 3.1415929), false);
+}
+TEST(task1, test10)
+{
+	ASSERT_FLOAT_EQ(27.404379, calc(751.0));
+
 }
