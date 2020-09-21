@@ -25,6 +25,5 @@ double iter(double guess, double x) {
 		return iter(improve(guess, x), x);
 }
 double calc(double arg) {
-
 	return iter(1.0, arg);
 }
