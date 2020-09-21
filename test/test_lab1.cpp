@@ -43,7 +43,7 @@ TEST(task1, test8)
     ASSERT_NEAR(4.0, calc(16.0), 0.000001);
 
 }
-TEST(task1, test10)
+TEST(task1, test9)
 {
     ASSERT_NEAR(10.0, average(5.0, 15.0), 0.000001);
 }
