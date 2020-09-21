@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include <task1.h>
-
+#include "task1.h"
+#include <math.h>
 
 double delta = 0.00000001;
 double average(double x, double y)
