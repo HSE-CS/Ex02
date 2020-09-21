@@ -1,5 +1,6 @@
 #include "task1.h"
 #include <math.h>
+#include <stdio.h>
 
 double average(double x, double y)
 {
