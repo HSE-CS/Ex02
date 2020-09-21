@@ -1,4 +1,5 @@
-#include "math.h"
+#include "task1.h"
+#include <cmath>
 
 double delta = 0.00000001;
 
@@ -24,4 +25,3 @@ double iter(double guess, double x) {
 double calc(double arg) {
     return iter(1.0, arg);
 }
-
