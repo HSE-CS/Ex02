@@ -5,8 +5,8 @@
 
 int main()
 {
-	double result = calc(2.0);
-	printf("Sqrt (%lf) =%lf\n", 2.0, result);
+	double result = improve(10.0, 9.0);
+	printf("Sqrt(%lf)=%lf\n", 2.0, result);
 	return 0;
 }
 
