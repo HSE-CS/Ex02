@@ -10,17 +10,29 @@ TEST(task1, test1)
 
 TEST(task1, test2)
 {
-     ASSERT_NEAR(true,good(1.0, 1.0),0.00000001);
+    ASSERT_NEAR(1.71275,average(1.4357, 1.9898),0.00000001);
 
 }
 
 TEST(task1, test3)
 {
-     ASSERT_NEAR(1.0,improve(1.0, 1.0),0.00000001);
+    ASSERT_NEAR(2.996705,average(0.18514, 5.80827),0.00000001);
 
 }
 
 TEST(task1, test4)
 {
-    ASSERT_NEAR(1.41421,calc(2.0),0.00000001);
+     ASSERT_NEAR(true,good(1.0, 1.0),0.00000001);
+
+}
+
+TEST(task1, test5)
+{
+     ASSERT_NEAR(1.0,improve(1.0, 1.0),0.00000001);
+
+}
+
+TEST(task1, test6)
+{
+    ASSERT_NEAR(1.0,calc(1.0),0.00000001);
 }
