@@ -13,14 +13,14 @@ double average (double x, double y)
 
 bool good (double guess, double x)
 {
-    return abs(guess * guess - x) < delta;
+    return fabs(guess * guess - x) < delta;
 }
 double improve (double guess, double x)
 {
     return average(guess, x/guess);
 }
 
-double iter (double guess, double iter)
+double iter (double guess, double x)
 {
     if (good(guess, x))
         return guess;
