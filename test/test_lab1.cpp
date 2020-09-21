@@ -13,3 +13,9 @@ TEST(task1, test2)
 	ASSERT_FLOAT_EQ(1.414214, calc(2.0));
 
 }
+
+TEST(task1, test3)
+{
+	ASSERT_FLOAT_EQ(1.414214, calc(2.0));
+
+}
