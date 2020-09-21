@@ -7,22 +7,22 @@ TEST(task1, test1)
 }
 TEST(task1, test2)
 {
-	ASSERT_NEAR(1.414214, calc(2.0), 0.000001);
+	ASSERT_NEAR(2.000000, calc(4.0), 0.000001);
 
 }
 TEST(task1, test3)
 {
-	ASSERT_NEAR(1.414214, calc(2.0), 0.000001);
+	ASSERT_NEAR(1.732051, calc(3.0), 0.000001);
 
 }
 TEST(task1, test4)
 {
-	ASSERT_NEAR(1.414214, calc(2.0), 0.000001);
+	ASSERT_NEAR(2.236068, calc(5.0), 0.000001);
 
 }
 TEST(task1, test5)
 {
-	ASSERT_NEAR(1.414214, calc(2.0), 0.000001);
+	ASSERT_NEAR(1.000000, calc(2.0), 0.000001);
 
 }
 TEST(task1, test6)
@@ -47,6 +47,6 @@ TEST(task1, test9)
 }
 TEST(task1, test10)
 {
-	ASSERT_NEAR(1.414214, calc(2.0), 0.000001);
+	ASSERT_DOUBLE_EQ(2.500000, average(2.0, 3.0));
 
 }
