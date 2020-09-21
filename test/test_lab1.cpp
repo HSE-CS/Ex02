@@ -11,12 +11,6 @@ TEST(task1, test1)
 
 TEST(task1, test2)
 {
-	ASSERT_FLOAT_EQ(3.16227766, calc(3.0));
-
-}
-
-TEST(task1, test3)
-{
 	ASSERT_FLOAT_EQ(2.000000, calc(4.0));
 
 }
