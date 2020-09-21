@@ -16,6 +16,12 @@ double improve(double guess, double x) {
 	else
 		return iter(improve(guess, x), x);
 }
+double iter(double guess, double x) {
+	if (good(guess, x))
+		return guess;
+	else
+		return iter(improve(guess, x), x);
+}
 double calc(double arg) {
 	return iter(1.0, arg);
 }
