@@ -7,11 +7,11 @@ TEST(task1, TestZero){
 }
 
 TEST(task1, TestTwo){
-    ASSERT_DOUBLE_EQ(calc(2.0), 1.414214);
+    ASSERT_DOUBLE_EQ(calc(2.0), 1.4142135624);
 }
 
 TEST(task1, TestBig){
-    ASSERT_DOUBLE_EQ(calc(7777777.0), 2788.86661567);
+    ASSERT_DOUBLE_EQ(calc(7777777.0), 2788.8666156702);
 }
 
 TEST(task1, TestSquare){
@@ -19,7 +19,7 @@ TEST(task1, TestSquare){
 }
 
 TEST(task1, TestSmall){
-    ASSERT_DOUBLE_EQ(calc(0.1), 0.316227766);
+    ASSERT_DOUBLE_EQ(calc(0.1), 0.3162277665);
 
 }
 TEST(task1, TestAverage){
@@ -31,17 +31,17 @@ TEST(task1, TestAverageZero){
 }
 
 TEST(task1, TestAverageBig){
-    ASSERT_DOUBLE_EQ(average(10000000.0, 20.0), 500000.0);
+    ASSERT_DOUBLE_EQ(average(10000000.0, 20.0), 5000010.0);
 }
 
 TEST(task1, TestGoodTrue){
-    ASSERT_EQ(good(3.1415926777, 3.1415926771), true);
+    ASSERT_EQ(good(3.0, 9.0), true);
 }
 
 TEST(task1, TestGoodTFalse){
-    ASSERT_EQ(good(3.1415926, 3.1415921), false);
+    ASSERT_EQ(good(3.000001, 9.0), false);
 }
 
 TEST(task1, TestImprove){
-    ASSERT_DOUBLE_EQ(improve(1.0, 2.0), 1.4167);
+    ASSERT_DOUBLE_EQ(improve(1.0, 2.0), 1.5);
 }
