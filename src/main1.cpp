@@ -70,7 +70,7 @@
 #define vs vector<string>
 #define vd vector<double>
 #define vii vector<vector<int>>
-
+#define int long long
 #define pi 3.141592653589
 
 using namespace std;
