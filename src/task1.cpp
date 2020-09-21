@@ -10,7 +10,7 @@ double average(double x, double y) {
 	return (x+y)/2.0;
 }
 bool good(double guess, double x) {
-	return abs(guess*guess-x) < delta;
+	return abs(guess*guess-x)<delta;
 }
 double improve(double guess, double x) {
 		return average(guess, x/guess);
