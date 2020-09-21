@@ -6,7 +6,7 @@
 
 int main() {
     double result = calc(2.0);
-    printf("Sqrt (11%f) 3DD1EVn", 2.0, result);
+    printf("Sqrt(%lf) = %lf\n", 2.0, result);
     return 0;
 }
 
