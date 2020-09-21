@@ -35,7 +35,7 @@ TEST(task1, average2)
 
 TEST(task1, good1)
 {
-	ASSERT_FLOAT_EQ(0.099999, good(0.00001, 0.1));
+	ASSERT_EQ(0.099999, good(0.00001, 0.1));
 
 }
 
