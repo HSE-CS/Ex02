@@ -4,54 +4,54 @@
 
 TEST(task1, test1)
 {
-    ASSERT_EQ(3571, getPrime(500));
+    ASSERT_EQ(4, calc(16));
 
 }
 
 TEST(task1, test2)
 {
-    ASSERT_EQ(2, getPrime(1));
+    ASSERT_EQ(2, calc(4));
 
 }
 
 TEST(task1, test3)
 {
-    ASSERT_EQ(3, getPrime(2));
+    ASSERT_EQ(3, calc(9));
 
 }
 
 TEST(task1, test4)
 {
-    ASSERT_EQ(16, getPrime(4));
+    ASSERT_EQ(4, calc(16));
 
 }
 TEST(task1, test5)
 {
-    ASSERT_EQ(5, getPrime(6));
+    ASSERT_EQ(5, calc(25));
 
 }
 TEST(task1, test6)
 {
-    ASSERT_EQ(6, getPrime(100));
+    ASSERT_EQ(6, calc(36));
 
 }
 TEST(task1, test7)
 {
-    ASSERT_EQ(7, getPrime(200));
+    ASSERT_EQ(40, calc(1600));
 
 }
 TEST(task1, test8)
 {
-    ASSERT_EQ(8, getPrime(50));
+    ASSERT_EQ(8, calc(64));
 
 }
 TEST(task1, test9)
 {
-    ASSERT_EQ(900, getPrime(30));
+    ASSERT_EQ(900, calc(30));
 
 }
 TEST(task1, test10)
 {
-    ASSERT_EQ(625, getPrime(25));
+    ASSERT_EQ(400, calc(20));
 
 }

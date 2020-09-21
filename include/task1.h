@@ -1,10 +1,11 @@
-//
-// Created by Алексей Трутнев on 14.09.2020.
-//
+#ifndef TASK1_H
+#define TASK1_H
+#define _CRT_SECURE_NO_WARNINGS
+#include <math.h>
+#include <cmath>
+#include <stdio.h>
 
-#ifndef PROJECT1_TASK1_H
-#define PROJECT1_TASK1_H
+double calc(double arg);
 
-unsigned int getPrime(unsigned int n);
-
-#endif //PROJECT1_TASK1_H
+#define TASK1_H
+#endif 

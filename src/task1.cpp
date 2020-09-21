@@ -1,5 +1,5 @@
-#include <math.h>
-#include <stdio.h>
+#endif TASK1_H
+#include "task1.h"
 
 double delta = 0.00000001;
 
