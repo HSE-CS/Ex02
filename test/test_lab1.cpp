@@ -1,5 +1,6 @@
 #include "gtest/gtest.h"
 
+
 TEST(task1, test1)
 {
 	ASSERT_DOUBLE_EQ(2.500000, average(2.0, 3.0));
@@ -50,3 +51,4 @@ TEST(task1, test10)
 	ASSERT_FLOAT_EQ(27.404379, calc(751.0));
 
 }
+
