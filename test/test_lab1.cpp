@@ -20,3 +20,15 @@ TEST(task1, test3)
 ASSERT_NEAR(3.0 ,calc(9), 0.1);
 
 }
+
+TEST(task1, test4)
+{
+ASSERT_NEAR(25.0 ,average(50,0), 0.1);
+
+}
+
+TEST(task1, test4)
+{
+ASSERT_NEAR(2 ,average(2,2), 0.1);
+
+}
