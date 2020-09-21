@@ -19,3 +19,8 @@ TEST(task1, test3)
      ASSERT_EQ(1.0,improve(1.0, 1.0));
 
 }
+
+TEST (task1, test4)
+{
+    ASSERT_EQ(1.41421,calc(2.0));
+}
