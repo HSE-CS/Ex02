@@ -10,7 +10,7 @@
 //
 TEST(task1, test1)
 {
-    ASSERT_EQ(1.414214, calc(2));
+    ASSERT_NEAR(1.414214, calc(2), 0.00000001);
 
 }
 //
