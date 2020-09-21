@@ -7,7 +7,7 @@ TEST(task1, test1) {
 }
 
 TEST(task1, test2) {
-    ASSERT_EQ(1.45, average(5.40, -2.5));
+    ASSERT_NEAR(1.45, average(5.40, -2.5),0.01);
 }
 
 TEST(task1, test3) {
