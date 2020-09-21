@@ -27,5 +27,8 @@ double iter(double guess, double x){
 }
 
 double calc(double arg){
+    if (arg < delta){
+        return 0.0;
+    }
     return iter(1.0, arg);
 }

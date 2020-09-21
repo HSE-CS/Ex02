@@ -7,11 +7,11 @@ TEST(task1, TestZero){
 }
 
 TEST(task1, TestTwo){
-    ASSERT_DOUBLE_EQ(calc(2.0), 1.4142135624);
+    ASSERT_DOUBLE_EQ(calc(2.0), 1.4142135623746898698);
 }
 
 TEST(task1, TestBig){
-    ASSERT_DOUBLE_EQ(calc(7777777.0), 2788.8666156702);
+    ASSERT_DOUBLE_EQ(calc(7777777.0), 2788.8666156702438456705);
 }
 
 TEST(task1, TestSquare){
@@ -19,7 +19,7 @@ TEST(task1, TestSquare){
 }
 
 TEST(task1, TestSmall){
-    ASSERT_DOUBLE_EQ(calc(0.1), 0.3162277665);
+    ASSERT_DOUBLE_EQ(calc(0.1), 0.3162277665175674546);
 
 }
 TEST(task1, TestAverage){
