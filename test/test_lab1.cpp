@@ -10,12 +10,30 @@ TEST(task1, test1)
 
 TEST(task1, test2)
 {
-	ASSERT_FLOAT_EQ(1.414214, calc(2.0));
+	ASSERT_FLOAT_EQ(2.500000, average(2.0, 3.0));
 
 }
 
 TEST(task1, test3)
 {
-	ASSERT_FLOAT_EQ(1.414214, calc(2.0));
+	ASSERT_FLOAT_EQ(8.306623, calc(69.0));
+
+}
+
+TEST(task1, test4)
+{
+	ASSERT_FLOAT_EQ(12.041594, calc(145.0));
+
+}
+
+TEST(task1, test5)
+{
+	ASSERT_FLOAT_EQ(1.000000, good(0.0,0.0));
+
+}
+
+TEST(task1, test6)
+{
+	ASSERT_FLOAT_EQ(1.000000, good(0.0, 0.0));
 
 }
