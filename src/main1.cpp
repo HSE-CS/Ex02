@@ -1,5 +1,7 @@
 #include "../include/task1.h"
 
+#include <math.h>
+#include <stdio.h>
 
 int main() {
 
