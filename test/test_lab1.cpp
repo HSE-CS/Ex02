@@ -5,17 +5,19 @@
 
 TEST(task1, test1)
 {
-    ASSERT_DOUBLE_EQ(2.0, avearge(2.0, 2.0));
+    ASSERT_NEAR(1.414214, calc(2.0), 0.000001);
 }
 
+
+/*
 TEST(task1, test2)
 {
-    ASSERT_DOUBLE_EQ(9.5, avearge(10.0, 9.0));
+    ASSERT_DOUBLE_EQ(0, avearge(10.0, 9.0));
 }
 
 TEST(task1, test3)
 {
-    ASSERT_DOUBLE_EQ(9.5, avearge(10.0, 9.0));
+    ASSERT_DOUBLE_EQ(0, good(0.5, 0.2));
 }
 
 TEST(task1, test4)
@@ -52,5 +54,5 @@ TEST(task1, test10)
 {
     ASSERT_DOUBLE_EQ(9.5, avearge(10.0, 9.0));
 }
-
+*/
 
