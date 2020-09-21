@@ -3,7 +3,7 @@
 #include "gtest/gtest.h"
 
 TEST(task1, test1) {
-	ASSERT_EQ(2, 1.41);
+	ASSERT_NEAR(1.41, calc(2.0), 0,01);
 }
 
 
