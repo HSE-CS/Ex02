@@ -1,24 +1,31 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <math.h>
 #include <stdio.h>
-#include <stdlib.h>
 #include "task1.h"
-#define CRT_SECURE_NO_WARNINGS
 
-unsigned int getPrime(unsigned int n)
+double del = 0.0000001;
+
+double average(double x, double y)
 {
-	unsigned int a = 2;
-	unsigned int c = 1;
-	int b = 0;
-	while (c != n)
-	{
-		a++;
-		b = 0;
-		for (int i = 1; i <= a; i++)
-		{
-			if (a % i == 0)
-				b++;
-		}
-		if (b == 2)
-			c++;
-	}
-	return(a);
+	return (x + y) / 2.0;
+}
+bool good(double inf, double x)
+{
+	return fabs(inf * inf - x) < del;
+}
+
+double improve(double inf, double x)
+{
+	return average(inf, x / inf);
+}
+double iter(double inf, double x)
+{
+	if (good(inf, x))
+		return inf;
+	else
+		return iter(improve(inf, x), x);
+}
+double calc(double arg)
+{
+	return iter(1.0, arg);
 }

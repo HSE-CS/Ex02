@@ -1,6 +1,10 @@
-#ifndef TASK_H
-#define TASK_H
+#ifndef TASK1_H
+#define TASK1_H
 
-unsigned int getPrime(unsigned int n); 
+double average(double x, double y);
+bool good(double inf, double x);
+double improve(double inf, double x);
+double iter(double inf, double x);
+double calc(double arg);
 
 #endif
