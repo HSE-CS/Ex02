@@ -4,6 +4,6 @@
 
 TEST(task1, test1)
 {
-	ASSERT_EQ(1.41421, calc(2.0));
+	ASSERT_EQ(2.500000, average(2.0, 3.0));
 
 }
