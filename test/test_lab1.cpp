@@ -2,5 +2,5 @@
 #include "gtest/gtest.h"
 
 TEST(task1, TestOne) {
-    ASSERT_DOUBLE_EQ(calc(2.0), 1.414214);
+    ASSERT_DOUBLE_EQ(calc(100.0), 10.0);
 }
