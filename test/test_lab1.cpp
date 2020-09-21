@@ -2,20 +2,20 @@
 
 #include "gtest/gtest.h"
 
+//TEST(task1, test1)
+//{
+//    ASSERT_EQ(1, calc(2));
+//
+//}
+//
 TEST(task1, test1)
 {
-    ASSERT_EQ(3571, calc(500));
+    ASSERT_EQ(1.414214, calc(2));
 
 }
-
-TEST(task1, test2)
-{
-    ASSERT_EQ(2, calc(1));
-
-}
-
-TEST(task1, test3)
-{
-    ASSERT_EQ(3, calc(2));
-
-}
+//
+//TEST(task1, test3)
+//{
+//    ASSERT_EQ(3, calc(2));
+//
+//}
