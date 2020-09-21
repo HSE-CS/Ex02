@@ -5,5 +5,5 @@
 
 TEST (task1, test1)
 {
-  ASSERT_NEAR(2.0, 1.41, 0.1);
+  ASSERT_NEAR(1.41, 2, 0.01);
 }
