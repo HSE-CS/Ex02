@@ -22,7 +22,7 @@ TEST(task1, test3)
 
 TEST(task1, test4)
 {
-     ASSERT_NEAR(true,good(1.414213, 2.0),0.00000001);
+     ASSERT_NEAR(false,good(1.414213, 2.0),0.00000001);
 
 }
 
@@ -34,7 +34,7 @@ TEST(task1, test5)
 
 TEST(task1, test6)
 {
-     ASSERT_NEAR(false,good(1.10906, 1.23),0.00000001);
+     ASSERT_NEAR(true,good(1.41421356, 2.0),0.00000001);
 
 }
 
@@ -58,12 +58,12 @@ TEST(task1, test9)
 
 TEST(task1, test10)
 {
-    ASSERT_NEAR(1.18921,iter(2.0, 1.41421),0.00000001);
+    ASSERT_NEAR(1.18921,iter(2.0, 1.41421),0.00001);
 }
 
 TEST(task1, test11)
 {
-    ASSERT_NEAR(1.19025,iter(3.15, 1.4167),0.00000001);
+    ASSERT_NEAR(1.19025,iter(3.15, 1.4167),0.00001);
 }
 
 TEST(task1, test12)
@@ -78,12 +78,12 @@ TEST(task1, test13)
 
 TEST(task1, test14)
 {
-    ASSERT_NEAR(1.41421,calc(2.0),0.00000001);
+    ASSERT_NEAR(1.41421,calc(2.0),0.00001);
 }
 
 TEST(task1, test15)
 {
-    ASSERT_NEAR(1.79388,calc(3.218),0.00000001);
+    ASSERT_NEAR(1.79388,calc(3.218),0.00001);
 }
 
 
