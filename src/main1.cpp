@@ -1,9 +1,14 @@
 #include <iostream>
+#include <cmath>
 #include "task1.h"
 
-int main() {
-    using namespace std;
-    unsigned int n = 0;
-    cin >> n;
-    cout << getPrime(n);
+int main() 
+{
+	int x;
+	std::cout << "Input: ";
+	std::cin >> x;
+	int y = 2;
+	double result = average(x, y);
+	printf("Sqrt(%lf) = %lf\n", 2.0, result);
+	return 0;
 }

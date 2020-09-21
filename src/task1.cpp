@@ -1,31 +1,34 @@
 #include "task1.h"
 #include <cmath>
+#include <stdio.h>
 
 
-unsigned int simple(unsigned int n)
+double delta = 0.00000001;
+
+double average(double x, double y)
 {
-    if (n <= 1)
-        return 0;
-
-    for (int i = 2; i <= sqrt(n); i++)
-        if (n % i == 0)
-            return 0;
-    return 1;
+	return (x + y) / 2.0;
 }
 
+bool good(double guess, double x)
+{
+	return fabs(guess * guess - x) < delta;
+}
 
+double improve(double guess, double x)
+{
+	return average(guess, x / guess);
+}
 
-unsigned int getPrime(unsigned int n) {
-    unsigned int c = 0, k = 0;
-    while (true) {
-        if (c < n) {
-            if (simple(k++)) {
-                c++;
-            }
-        }
-        else {
-            break;
-        }
-    }
-    return --k;
+double iter(double guess, double x)
+{
+	if (good(guess, x))
+		return guess;
+	else
+		return iter(improve(guess, x), x);
+}
+
+double calc(double arg)
+{
+	return iter(1.0, arg);
 }
