@@ -6,22 +6,17 @@ TEST(task1, test1) {
 	ASSERT_EQ(3.0, average(4.0, 2.0));
 }
 
-/*
-TEST(task1, test1) {
-	ASSERT_EQ(3.0, average(4.0, 2.0));
-}
-
-TEST(task1, test1) {
+TEST(task1, test2) {
 	ASSERT_EQ(4.1, average(2.8, 5.4));
 }
 
 
 
-TEST(task1, test1) {
+TEST(task1, test3) {
 	ASSERT_EQ(2.5, improve(2.0, 6.0));
 }
 
-TEST(task1, test1) {
+TEST(task1, test4) {
 	ASSERT_EQ(4.2, improve(4.4, 17.6));
 }
 
