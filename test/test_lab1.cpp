@@ -1,7 +1,4 @@
-#include "gtest/gtest.h"
-
-TEST(task1, test1)
+TEST(task1, test5)
 {
-	ASSERT_NEAR(1.414214, calc(2.0), 0.000001);
-
-} 
+    ASSERT_EQ(3.5, improve(5.0, 10.0));
+}
