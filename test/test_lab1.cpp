@@ -15,6 +15,12 @@ TEST(task1, test2)
 
 }
 
+TEST(task1, test3)
+{
+	ASSERT_FLOAT_EQ(3.162277, calc(10.0));
+
+}
+
 TEST(task1, average1)
 {
 	ASSERT_FLOAT_EQ(2.500000, average(2.0, 3.0));
