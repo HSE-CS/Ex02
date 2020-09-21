@@ -22,4 +22,25 @@ TEST(task1, test5) {
     ASSERT_EQ(3.5, improve(5.0, 10.0));
 }
 
+TEST(task1, test6) {
+    ASSERT_EQ(0.0, improve(3.0, -9.0));
+}
+
+TEST(task1, test7) {
+    ASSERT_EQ(2.175, improve(2.35, 4.7));
+}
+
+TEST(task1, test8) {
+    ASSERT_EQ(0.0, good(4.0, 0.0));
+}
+
+TEST(task1, test9) {
+    ASSERT_EQ(0.0, good(10.0, -1.0));
+}
+
+
+
+
+
+
 
