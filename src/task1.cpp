@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 double delta = 0.00001;
-double average(double x, double t)
+double average(double x, double y)
 {
 	return (x + y) / 2.0;
 }
