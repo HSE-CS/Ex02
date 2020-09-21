@@ -5,8 +5,7 @@
 double delta = 0.00001;
 double average(double x, double t)
 {
-
-	return (x + y) / 2.0
+	return (x + y) / 2.0;
 }
 bool good(double guess, double x) {
 	return fabs(guess * guess - x) < delta;
