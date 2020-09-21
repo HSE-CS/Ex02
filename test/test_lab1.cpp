@@ -2,4 +2,19 @@
 
 #include "gtest/gtest.h"
 
+TEST(task1, test1)
+{
+ASSERT_NEAR(10.0, calc(100.0), 0.000001);
+ASSERT_NEAR(1.732050, calc(3.0), 0.000001);
+ASSERT_NEAR(2.0, calc(4.0), 0.000001);
+ASSERT_NEAR(2.236067, calc(5.0), 0.000001);
+ASSERT_NEAR(4.472136, calc(20.0), 0.000001);
+ASSERT_NEAR(2.645751, calc(7.0), 0.000001);
+ASSERT_NEAR(2.828427, calc(8.0), 0.000001);
+ASSERT_NEAR(3.0, calc(9.0), 0.000001);
+ASSERT_NEAR(5.0, calc(25.0), 0.000001);
+ASSERT_NEAR(3.316624, calc(11.0), 0.000001);
+}
+
+
 
