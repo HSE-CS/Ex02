@@ -38,6 +38,10 @@ TEST(task1, test9) {
     ASSERT_EQ(0.0, good(10.0, -1.0));
 }
 
+TEST(task1, test10) {
+    ASSERT_EQ(0.0, good(-32.0, 32.0));
+}
+
 
 
 
