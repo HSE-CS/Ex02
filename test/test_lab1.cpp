@@ -49,3 +49,15 @@ TEST(task1, test8)
 	ASSERT_FLOAT_EQ(3.750000, improve(6.0, 9.0));
 
 }
+
+TEST(task1, test9)
+{
+	ASSERT_FLOAT_EQ(3.000000, iter(6.0, 9.0));
+
+}
+
+TEST(task1, test10)
+{
+	ASSERT_FLOAT_EQ(4.123106, iter(1.0, 17.0));
+
+}
