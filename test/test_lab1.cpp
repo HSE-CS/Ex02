@@ -10,7 +10,7 @@ TEST(CalcTest, Test2)
 }
 TEST(CalcTest, Test3) 
 {
-	ASSERT_EXIT(calc(-1),::testing::ExitedWithCode(1),"");
+	EXPECT_DOUBLE_EQ(1.7320508100147274, calc(3));
 }
 TEST(AverageTest, Test4)
 {
