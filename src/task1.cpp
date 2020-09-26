@@ -1,5 +1,6 @@
 #include "task1.h"
-#include <cmath>
+#include<cmath>
+#include "pch.h"
 
 double delta = 0.000001;
 double average(double x, double y)
