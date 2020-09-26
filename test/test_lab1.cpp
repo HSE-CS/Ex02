@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "gtest/gtest.h"
 #include "task1.h"
 
 TEST(CalcTest, Test1) {
