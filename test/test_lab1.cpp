@@ -49,13 +49,13 @@ TEST(task1, Test9) {
 ASSERT_NEAR(10.0000000, calc(100.0),0.0000001);
 }
 
-//TEST(task1, Test10)
-//{
-//ASSERT_NEAR(6.00000000, calc(36.0),0.0000001);
-//}
-//
-//TEST(task1, Test11)
-//{
-//ASSERT_NEAR(12.00000000, calc(144.0),0.0000001);
-//}
+TEST(task1, Test10)
+{
+ASSERT_NEAR(6.00000000, calc(36.0),0.0000001);
+}
+
+TEST(task1, Test11)
+{
+ASSERT_NEAR(12.00000000, calc(144.0),0.0000001);
+}
 
