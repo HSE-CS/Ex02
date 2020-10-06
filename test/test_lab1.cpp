@@ -5,7 +5,7 @@
 
 TEST(task1, Test1)
 {
-EXPECT_DOUBLE_EQ(1.50000000, average(1.0,2.0),0.0000001);
+ASSERT_NEAR(1.50000000, average(1.0,2.0),0.0000001);
 }
 
 //TEST(task1, Test2)
