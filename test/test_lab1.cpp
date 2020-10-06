@@ -40,15 +40,15 @@ TEST(task1, Test7)
 {
 ASSERT_NEAR(15.00000000, calc(225.0),0.0000001);
 }
-//TEST(task1, Test8)
-//{
-//ASSERT_NEAR(9.89949494, calc(98),0.0000001);
-//}
-//
-//TEST(task1, Test9) {
-//ASSERT_NEAR(7.07107000, calc(50.0),0.0000001);
-//}
-//
+TEST(task1, Test8)
+{
+ASSERT_NEAR(9.89949494, calc(98),0.0000001);
+}
+
+TEST(task1, Test9) {
+ASSERT_NEAR(7.07107000, calc(50.0),0.0000001);
+}
+
 //TEST(task1, Test10)
 //{
 //ASSERT_NEAR(15.099700000000, calc(228.0),0.0000001);
