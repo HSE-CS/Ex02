@@ -1,5 +1,7 @@
 //#include "task1.h"
 #include <cmath>
+#include <cstdlib>
+using namespace std;
 
 double delta = 0.00000001;
 
@@ -10,7 +12,7 @@ double average(double x, double y)
 
 bool good(double guess, double x)
 {
-	return abs(guess * guess - x) < delta;
+	return std::abs(guess * guess - x) < delta;
 }
 
 double improve(double guess, double x)
