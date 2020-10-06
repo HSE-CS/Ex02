@@ -36,26 +36,26 @@ TEST(task1, Test6)
 ASSERT_NEAR(3.25000000, improve(2.0, 9.0),0.0000001);
 }
 
-//TEST(task1, Test7)
-//{
-//ASSERT_NEAR(15.03330000, calc(226.0),0.0000001);
-//}
-//TEST(task1, Test8)
-//{
-//ASSERT_NEAR(9.89949494, calc(98),0.0000001);
-//}
-//
-//TEST(task1, Test9) {
-//ASSERT_NEAR(7.07107000, calc(50.0),0.0000001);
-//}
-//
-//TEST(task1, Test10)
-//{
-//ASSERT_NEAR(15.099700000000, calc(228.0),0.0000001);
-//}
-//
-//TEST(task1, Test11)
-//{
-//ASSERT_NEAR(17.94440000, calc(322.0),0.0000001);
-//}
+TEST(task1, Test7)
+{
+ASSERT_NEAR(15.03330000, calc(226.0),0.0000001);
+}
+TEST(task1, Test8)
+{
+ASSERT_NEAR(9.89949494, calc(98),0.0000001);
+}
+
+TEST(task1, Test9) {
+ASSERT_NEAR(7.07107000, calc(50.0),0.0000001);
+}
+
+TEST(task1, Test10)
+{
+ASSERT_NEAR(15.099700000000, calc(228.0),0.0000001);
+}
+
+TEST(task1, Test11)
+{
+ASSERT_NEAR(17.94440000, calc(322.0),0.0000001);
+}
 
