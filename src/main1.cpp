@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     cout << "hi,bro" << endl;
-    double a = calc(322);
-    cout << a;
+    double a = calc(3.0);
+    cout<<"Sqrt("<<3.0<<")"<<"="<<a<<endl;
     return 0;
 }

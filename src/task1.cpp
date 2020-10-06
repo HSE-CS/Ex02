@@ -1,7 +1,7 @@
 #include "task1.h"
 #include <iostream>
 using namespace std;
-
+#include <iostream>
 double delta = 0.00000001;
 
 double average(double x, double y) {
@@ -25,3 +25,4 @@ double iter(double guess, double x) {
 double calc(double arg) {
     return iter(1.0, arg);
 }
+
