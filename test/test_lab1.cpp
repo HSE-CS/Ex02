@@ -18,12 +18,12 @@ TEST(task1, Test3)
 ASSERT_FALSE(good(2.5,1));
 
 }
-//
-//TEST(task1, Test4)
-//{
-//ASSERT_FALSE(good(2.5123,1.2));
-//
-//}
+
+TEST(task1, Test4)
+{
+ASSERT_FALSE(good(2.5123,1.2));
+
+}
 //
 //TEST(task1, Test5)
 //{
