@@ -31,11 +31,11 @@ ASSERT_TRUE(good(0.000003, 0.00000000000005));
 
 }
 
-//TEST(task1, Test6)
-//{
-//ASSERT_NEAR(114.70600000, improve(228, 322),0.0000001);
-//}
-//
+TEST(task1, Test6)
+{
+ASSERT_NEAR(114.70600000, improve(228.0, 322.0),0.0000001);
+}
+
 //TEST(task1, Test7)
 //{
 //ASSERT_NEAR(15.03330000, calc(226.0),0.0000001);
