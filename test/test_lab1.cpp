@@ -8,11 +8,11 @@ TEST(task1, Test1)
 ASSERT_NEAR(1.50000000, average(1.0,2.0),0.0000001);
 }
 
-//TEST(task1, Test2)
-//{
-//ASSERT_NEAR(4.00000000, average(3.0, 5.0),0.0000001);
-//}
-//
+TEST(task1, Test2)
+{
+ASSERT_NEAR(4.00000000, average(3.0, 5.0),0.0000001);
+}
+
 //TEST(task1, Test3)
 //{
 //ASSERT_FALSE(good(2.5,1));
