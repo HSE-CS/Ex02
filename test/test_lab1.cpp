@@ -24,13 +24,13 @@ TEST(task1, Test4)
 ASSERT_FALSE(good(2.5123,1.2));
 
 }
-//
-//TEST(task1, Test5)
-//{
-//ASSERT_TRUE(good(0.000003, 0.00000000000005));
-//
-//}
-//
+
+TEST(task1, Test5)
+{
+ASSERT_TRUE(good(0.000003, 0.00000000000005));
+
+}
+
 //TEST(task1, Test6)
 //{
 //ASSERT_NEAR(114.70600000, improve(228, 322),0.0000001);
