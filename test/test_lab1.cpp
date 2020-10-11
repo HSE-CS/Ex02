@@ -32,32 +32,32 @@ TEST(task1, test6) {
 
 
 TEST(task1, test7) {
-	ASSERT_EQ(true, good(2.0,4.0 ))
+	ASSERT_EQ(true, good(2.0, 4.0));
 }
 
 TEST(task1, test8) {
-	ASSERT_EQ(false, good(3.7, 2.9))
+	ASSERT_EQ(false, good(3.7, 2.9));
 }
 
 
 
 
 TEST(task1, test9) {
-	ASSERT_EQ(2.0, iter(2.0, 4.0))
+	ASSERT_EQ(2.0, iter(2.0, 4.0));
 }
 
 TEST(task1, test10) {
-	ASSERT_EQ(1.0, iter(1.0, 1.0))
+	ASSERT_EQ(1.0, iter(1.0, 1.0));
 }
 
 
 
-
+/*
 TEST(task1, test9) {
-	ASSERT_EQ(, calc(, ))
+	ASSERT_EQ(, calc(, ));
 }
 
 TEST(task1, test10) {
-	ASSERT_EQ(, calc(, ))
+	ASSERT_EQ(, calc(, ));
 }
 */
