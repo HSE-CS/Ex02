@@ -11,7 +11,7 @@ TEST(task1, test2) {
 }
 
 TEST(task1, test3) {
-	ASSERT_EQ(4.9, average(9.1, 0.7));
+	ASSERT_EQ(5.0, average(9.1, 0.9));
 }
 
 TEST(task1, test4) {
