@@ -6,13 +6,15 @@
 //  Copyright © 2020 Julia Rogozyan. All rights reserved.
 //
 
-#include <stdio.h>
-#include "../include/task1.h"
-using namespace std;
+ #include "../include/task1.h"
 
-int main() {
-    double x = 2.0;
-    double res = calc(x);
-    printf("square root from %lf equals %lf\n", x, res);
-    return 0;
-} 
+ #include <math.h>
+ #include <stdio.h>
+
+ int main() {
+
+     double result=calc(2.0);
+     printf("Sqrt(%lf) = %lf\n", 2.0, result);
+
+     return 0;
+ } 
