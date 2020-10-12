@@ -6,7 +6,7 @@
 //  Copyright © 2020 Julia Rogozyan. All rights reserved.
 //
 
-#include "gtest/gtest.hpp"
+#include "gtest/gtest.h"
 
 TEST(task1, test1)
 {
