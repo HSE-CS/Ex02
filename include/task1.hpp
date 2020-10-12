@@ -6,8 +6,8 @@
 //  Copyright © 2020 Julia Rogozyan. All rights reserved.
 //
  
-#ifndef TASK1_H
-#define TASK1_H
+#ifndef TASK1_HPP
+#define TASK1_HPP
 
 double average(double x, double y);
 bool good(double guess, double x);

@@ -6,7 +6,7 @@
 //  Copyright © 2020 Julia Rogozyan. All rights reserved.
 //
 
- #include "../include/task1.h"
+ #include "../include/task1.hpp"
 
  #include <math.h>
  #include <stdio.h>
