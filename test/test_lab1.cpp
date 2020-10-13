@@ -18,10 +18,6 @@ TEST (task1, test_calc4){
     ASSERT_NEAR (50,calc(2500.0),0.000001);
 }
 
-TEST (task1, test_calc5){
-    ASSERT_NEAR (5.38516,calc(29.0),0.000001);
-}
-
 TEST (task1, test_average1){
     ASSERT_DOUBLE_EQ (95.0, average(90.0, 100.0));
 }
