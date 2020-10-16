@@ -42,11 +42,11 @@ TEST(task1, test8)
 }
 TEST(task1, test9)
 {
-	ASSERT_NEAR(1.414214, calc(2.0), 0.000001);
+	ASSERT_EQ(4.5, improve(9.0, 0.0));
 
 }
 TEST(task1, test10)
 {
-	ASSERT_NEAR(1.414214, calc(2.0), 0.000001);
+	ASSERT_EQ(0.0, average(-1.0, 1.0));
 
 }
