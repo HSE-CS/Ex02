@@ -30,7 +30,7 @@ ASSERT_DOUBLE_EQ(7.79, iter(7.79, 60.6841));
 }
 
 TEST(iter, test2){
-ASSERT_NEAR(1.58114,iter(11.0,2.5),0.000001);
+ASSERT_NEAR(1.58113883008419,iter(11.0,2.5),0.000001);
 }
 
 TEST(calc, test1){
