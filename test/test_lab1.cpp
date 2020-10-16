@@ -7,7 +7,7 @@ TEST(task1, test1)
 }
 TEST(task1, test2)
 {
-	ASSERT_NEAR(2.0, calc(4.0), 0.000001);
+	ASSERT_NEAR(2.000000, calc(4.0), 0.000001);
 
 }
 TEST(task1, test3)
@@ -27,17 +27,18 @@ TEST(task1, test5)
 }
 TEST(task1, test6)
 {
-	ASSERT_FLOAT_EQ(3.0, iter(7.0, 9.0));
+	ASSERT_NEAR(1.414214, calc(2.0), 0.000001);
+	//ASSERT_FLOAT_EQ(3.000000, iter(7.0, 9.0));
 
 }
 TEST(task1, test7)
 {
-	ASSERT_FLOAT_EQ(0.0, good(1.0, 3.0));
+	ASSERT_NEAR(1.414214, calc(2.0), 0.000001);
 
 }
 TEST(task1, test8)
 {
-	ASSERT_FLOAT_EQ(1.0, good(3.0, 3.0));
+	ASSERT_FLOAT_EQ(1.000000, good(3.0, 3.0));
 
 }
 TEST(task1, test9)
