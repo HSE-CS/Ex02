@@ -18,7 +18,7 @@ ASSERT_FALSE(good(3.7,13.02347));
 }
 
 TEST(improve, test1){
-ASSERT_DOUBLE_EQ(30.515,improve(60.0,30.9));
+ASSERT_DOUBLE_EQ(15.2575,improve(30.0,15.45));
 }
 
 TEST(improve, test2){
@@ -34,7 +34,7 @@ ASSERT_NEAR(1.58114,iter(11.0,2.5),0.000001);
 }
 
 TEST(calc, test1){
-ASSERT_NEAR(29.274,calc(856.965),0.000001);
+ASSERT_NEAR(29.273964541892891,calc(856.965),0.000001);
 }
 
 TEST(calc, test2){
