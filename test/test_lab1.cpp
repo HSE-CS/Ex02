@@ -1,35 +1,54 @@
 #include "task1.h"
+
 #include "gtest/gtest.h"
 
-TEST(task1, test7) {
-    ASSERT_NEAR(57.035088, improve(114.0, 8.0), 0.00001);
+TEST(ex02, test1)
+{
+    double result = average(1.0, 2.0);
+    EXPECT_EQ(1.5, result);
 }
-TEST(task1, test1) {
-    ASSERT_NEAR(2.449490, calc(6.0), 0.00001);
+TEST(ex02, test2)
+{
+    double result = average(0.12345678, 8.7654321);
+    EXPECT_EQ(4.44444444, result);
 }
-TEST(task1, test8) {
-    ASSERT_NEAR(7.428571, improve(14.0, 12.0), 0.00001);
+TEST(ex02, test3)
+{
+    bool result = good(2.0000000000000022, 4);
+    EXPECT_EQ(true, result);
 }
-TEST(task1, test9) {
-    ASSERT_NEAR(6.538462, improve(13.0, 1.0), 0.00001);
+TEST(ex02, test4)
+{
+    double result = improve(114.0, 8.0);
+    EXPECT_EQ(57.035088, result);
 }
-TEST(task1, test10) {
-    ASSERT_NEAR(1.000000, improve(1.0, 1.0), 0.00001);
+TEST(ex02, test5)
+{
+    double result = improve(14.0, 12.0);
+    EXPECT_EQ(7.428571, result);
 }
-TEST(task1, test5) {
-    ASSERT_NEAR(20.500000, average(26.0, 15.0), 0.00001);
+TEST(ex02, test6)
+{
+    double result = iter(1.0, 4.0);
+    EXPECT_EQ(2.0, result);
 }
-TEST(task1, test6) {
-    ASSERT_NEAR(45.500000, average(45.0, 46.0), 0.00001);
+TEST(ex02, test7)
+{
+    double result = calc(9.0);
+    EXPECT_EQ(3.0, result);
 }
-TEST(task1, test2) {
-    ASSERT_NEAR(1.414214, calc(2.0), 0.00001);
+TEST(ex02, test8)
+{
+    double result = calc(2.0);
+    EXPECT_EQ(1.41421356, result);
 }
-TEST(task1, test3) {
-    ASSERT_NEAR(7.000000, calc(49.0), 0.00001);
+TEST(ex02, test9)
+{
+    double result = average(2.0, 4.0);
+    EXPECT_EQ(3.0, result);
 }
-TEST(task1, test4) {
-    ASSERT_NEAR(14.000000, average(16.0, 12.0), 0.00001);
+TEST(ex02, test10)
+{
+    bool result = good(1, 2);
+    EXPECT_EQ(false, result);
 }
-
-
