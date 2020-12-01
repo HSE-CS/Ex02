@@ -1,7 +1,3 @@
-//
-// Created by nikita on 15.09.2020.
-//
-
 #include "task1.h"
 #include "gtest/gtest.h"
 
