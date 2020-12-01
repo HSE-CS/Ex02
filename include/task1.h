@@ -6,7 +6,7 @@
 #define EX02_TASK1_H
 
 #include <cmath>
-#include <cstdio>
+#include <iostream>
 
 double delta = 0.00000001;
 
