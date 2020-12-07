@@ -20,27 +20,27 @@ TEST(ex02, test3)
 TEST(ex02, test4)
 {
     double result = improve(114.0, 8.0);
-    EXPECT_EQ(57.035088, result);
+    EXPECT_EQ(57.0351, result);
 }
 TEST(ex02, test5)
 {
     double result = improve(14.0, 12.0);
-    EXPECT_EQ(7.428571, result);
+    EXPECT_EQ(7.42857, result);
 }
 TEST(ex02, test6)
 {
     double result = iter(1.0, 4.0);
-    EXPECT_EQ(2.0, result);
+    EXPECT_EQ(2, result);
 }
 TEST(ex02, test7)
 {
     double result = calc(9.0);
-    EXPECT_EQ(3.0, result);
+    EXPECT_EQ(3, result);
 }
 TEST(ex02, test8)
 {
     double result = calc(2.0);
-    EXPECT_EQ(1.41421356, result);
+    EXPECT_EQ(1.41421, result);
 }
 TEST(ex02, test9)
 {
